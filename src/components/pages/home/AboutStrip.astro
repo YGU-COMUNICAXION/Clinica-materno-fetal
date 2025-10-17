@@ -1,0 +1,47 @@
+---
+interface Props {
+  className?: string;
+}
+
+const { className = "" }: Props = Astro.props;
+---
+
+<section
+  class={`relative w-full ${className}`}
+  aria-label="Acerca de la clínica"
+>
+  <div class="bg-primary-blue-200 py-4 md:py-8 lg:py-12">
+    <div
+      class="container mx-auto
+    grid grid-cols-1 gap-10 md:grid-cols-2 rounded-2xl p-8 md:p-10"
+    >
+      <!-- Columna izquierda -->
+      <div class="text-pretty text-primary-blue-800">
+        <p class="font-light text-lg md:text-xl leading-relaxed">
+          En la Clínica de Medicina Materno Fetal, del Hospital Ángeles Lomas,
+          <span class="font-semibold">
+            ofrecemos detección oportuna de enfermedades
+          </span>
+          en el feto y complicaciones en la madre, mediante estudios de genética
+          e imagen con
+          <span class="font-semibold">
+            tecnología avanzada y médicos altamente especializados
+          </span>.
+        </p>
+      </div>
+
+      <!-- Columna derecha -->
+      <div class="text-pretty text-primary-blue-800">
+        <p class="font-light text-lg md:text-xl leading-relaxed">
+          Somos un grupo de
+          <span class="font-semibold">
+            médicos materno fetales certificados en la evaluación de la salud
+            fetal
+          </span>, con una amplia y reconocida trayectoria. Trabajamos juntos
+          para ofrecer las alternativas de seguimiento, orientación y/o
+          tratamiento para cada paciente.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

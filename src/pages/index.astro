@@ -1,6 +1,7 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import HeroBanner from "@components/HeroBanner.astro";
+import AboutStrip from "@components/pages/home/AboutStrip.astro";
 
 import imgBanner from "@assets/img/home/banner/banner1.jpg";
 import imgSello from "@assets/img/home/sello.png";
@@ -23,5 +24,6 @@ import { Image } from "astro:assets";
 
       <Image src={imgSello} alt="Logo JCI" class="w-32 md:w-40 lg:w-48" />
     </section>
-  </HeroBanner></Layout
->
+  </HeroBanner>
+  <AboutStrip />
+</Layout>
