@@ -1,0 +1,225 @@
+---
+import { Image } from "astro:assets";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+
+import svgLogoWhite from "@assets/img/logo.png";
+import svgLogoColor from "@assets/img/logoDark.png";
+
+type HeaderVariant = "light" | "dark";
+
+interface Props {
+  variant?: HeaderVariant;
+}
+
+const { variant = "light" }: Props = Astro.props;
+const isDarkVariant = variant === "dark";
+---
+
+<header
+  id="header"
+  data-variant={variant}
+  data-scrolled="false"
+  class:list={[
+    "group/header flex items-center justify-center",
+    "z-20 fixed w-full left-0 right-0 transition-colors duration-300",
+    "bg-transparent",
+  ]}
+>
+  <div
+    class="container relative flex items-center justify-between gap-4 p-4 lg:p-0 lg:py-6 xl:py-6 md:px-0"
+  >
+    <div class="lg:hidden absolute">
+      <Bars3Icon
+        id="menu-icon"
+        data-header-icon
+        className={`size-8 lg:hidden transition-colors duration-300 ${
+          isDarkVariant
+            ? "text-white group-[data-scrolled=true]/header:text-primary-blue"
+            : "text-primary-blue"
+        }`}
+      />
+      <XMarkIcon
+        id="close-icon"
+        data-header-icon
+        className={`hidden size-8 lg:hidden transition-colors duration-300 ${
+          isDarkVariant
+            ? "text-white group-[data-scrolled=true]/header:text-primary-blue"
+            : "text-primary-blue"
+        }`}
+      />
+    </div>
+
+    <div
+      class="w-full lg:w-auto flex items-center justify-center lg:justify-start"
+    >
+      <a
+        href={"/"}
+        data-i18n-path="/"
+        data-header-brand
+        class={`flex items-center gap-2 lg:gap-4 font-bold text-xl lg:text-2xl xl:text-3xl transition-colors duration-300 ${
+          isDarkVariant
+            ? "text-white group-[data-scrolled=true]/header:text-primary-blue"
+            : "text-primary-blue"
+        }`}
+      >
+        {
+          variant === "dark" ? (
+            <Image class="header-logo block" src={svgLogoWhite} alt={"logo"} />
+          ) : (
+            <Image class="header-logo block" src={svgLogoColor} alt={"logo"} />
+          )
+        }
+      </a>
+    </div>
+
+    <nav
+      id="navigator-menu"
+      class:list={[
+        "fixed -top-full left-0 right-0 lg:top-0 lg:left-auto lg:right-auto",
+        "flex flex-col items-center justify-center shadow lg:shadow-none p-6 py-8 lg:p-0 lg:py-0",
+        "transition-[top] duration-300 ease-in-out lg:transition-none",
+        "lg:static lg:flex-1 lg:flex lg:items-center lg:gap-4 lg:pt-1 lg:bg-transparent",
+        isDarkVariant
+          ? "bg-primary-forest lg:bg-transparent"
+          : "bg-white lg:bg-transparent",
+      ]}
+    >
+      <ul
+        data-header-nav
+        class={`h-full container
+        flex flex-col lg:flex-row items-center justify-end gap-8 lg:gap-14
+        lg:[&>li]:text-center
+        [&>li>a]:relative [&>li>a]:uppercase [&>li]:inline-block
+        [&>li>a]:hover:underline [&>li>a]:transition-colors [&>li>a]:duration-300
+        [&>li>a]:ease-in-out
+        font-normal text-base lg:text-lg xl:text-lg transition-colors duration-300
+        ${
+          isDarkVariant
+            ? "text-white [&>li>a]:text-white group-[data-scrolled=true]/header:text-primary-blue group-[data-scrolled=true]/header:[&>li>a]:text-primary-blue"
+            : "text-primary-blue [&>li>a]:text-primary-blue"
+        }`}
+      >
+        <li>
+          <a href={"/"}>Inicio</a>
+        </li>
+        <li>
+          <a href={"/servicios"}>Servicios</a>
+        </li>
+        <li>
+          <a href={"/quienes-somos"}>Quienes Somos</a>
+        </li>
+        <li>
+          <a href={"/travel-types"}>Contacto</a>
+        </li>
+        <li>
+          <a
+            href={"#Citas"}
+            class="px-4 py-2 rounded-full bg-primary-blue-800
+            !text-white hover:bg-primary-blue/90 transition-colors duration-300"
+          >
+            Agente citas
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  @reference "../styles/global.css";
+
+  /* Colocar linea color roja del link activo por debajo del link, pero en desktop colocar la linea encima del link */
+  #navigator-menu a:is(.active) {
+    font-weight: 600;
+  }
+
+  .header-logo {
+    @apply h-8 md:h-12 w-auto;
+  }
+</style>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const barsIcon = document.querySelector("#menu-icon");
+    const closeIcon = document.querySelector("#close-icon");
+    const navigatorMenu = document.querySelector("#navigator-menu");
+    const header = document.querySelector<HTMLElement>("#header");
+
+    if (!navigatorMenu || !barsIcon || !closeIcon || !header) {
+      throw new Error("Element not found");
+    }
+
+    const isMobile = () => window.matchMedia("(max-width: 1023px)").matches;
+
+    const applyHeaderBg = () => {
+      if (!(header instanceof HTMLElement)) return;
+
+      const scrolled = window.scrollY > 16;
+      const menuOpen = header.dataset.menuOpen === "true";
+      const isDark = header.dataset.variant === "dark";
+
+      header.classList.remove(
+        "bg-transparent",
+        "bg-white",
+        "bg-primary-forest",
+        "shadow-md"
+      );
+
+      // Fondo sólido si hay scroll o si el menú móvil está abierto
+      if (scrolled || (menuOpen && isMobile())) {
+        header.classList.add(
+          isDark ? "bg-primary-forest" : "bg-white",
+          "shadow-md"
+        );
+      } else {
+        header.classList.add("bg-transparent");
+      }
+
+      header.setAttribute("data-scrolled", scrolled ? "true" : "false");
+    };
+
+    const setMenuOpen = (open: boolean | undefined) => {
+      // Toggle iconos
+      barsIcon.classList.toggle("hidden", open);
+      closeIcon.classList.toggle("hidden", !open);
+
+      // Mover el nav (tu clase para desplegar)
+      navigatorMenu.classList.toggle("top-16", open);
+
+      // Marcar estado en header
+      header.setAttribute("data-menu-open", open ? "true" : "false");
+
+      // Recalcular fondo del header
+      applyHeaderBg();
+    };
+
+    barsIcon.addEventListener("click", () => setMenuOpen(true));
+    closeIcon.addEventListener("click", () => setMenuOpen(false));
+
+    // Ajuste si se cambia el tamaño (cerrar menú si deja de ser mobile)
+    window.addEventListener(
+      "resize",
+      () => {
+        if (!isMobile() && header.dataset.menuOpen === "true") {
+          setMenuOpen(false);
+        } else {
+          applyHeaderBg();
+        }
+      },
+      { passive: true }
+    );
+
+    // Scroll
+    applyHeaderBg();
+    window.addEventListener("scroll", applyHeaderBg, { passive: true });
+
+    document.addEventListener(
+      "astro:before-swap",
+      () => {
+        window.removeEventListener("scroll", applyHeaderBg);
+        window.removeEventListener("resize", applyHeaderBg);
+      },
+      { once: true }
+    );
+  });
+</script>

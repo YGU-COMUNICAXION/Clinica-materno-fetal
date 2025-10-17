@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-blue: #0063a6;
+  --color-primary-blue-200: #eff4ff;
+  --color-primary-blue-400: #b5cdff;
+  --color-primary-blue-600: #6698f4;
+  --color-primary-blue-800: #266aea;
+
+  --color-primary-grey: #7b868c;
+  --color-primary-grey-100: #f9f9f9;
+  --color-primary-grey-200: #f7f7f7;
+  --color-primary-grey-800: #666666;
+
+  --font-sans: "Poppins", sans-serif;
+  --font-heading: "Montserrat", sans-serif;
+}
