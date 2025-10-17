@@ -1,0 +1,29 @@
+---
+import { getImage } from "astro:assets";
+
+interface Props {
+  backgroundImage: ImageMetadata;
+  activeBgOverlay?: boolean;
+}
+
+const { backgroundImage, activeBgOverlay = false } = Astro.props as Props;
+
+const optimzedImage = await getImage({
+  src: backgroundImage,
+  widths: [400, 800, 1200, 1600, 2000],
+  formats: ["avif", "webp", "jpeg"],
+  quality: 80,
+});
+---
+
+<section
+  class={`w-full h-[85vh] md:h-[80vh] lg:h-[70vh] relative isolate flex
+  px-4 md:px-8 lg:px-16`}
+  style={`background-image: url(${optimzedImage.src}); background-size: cover; background-position: center;`}
+>
+  {activeBgOverlay && <div class="absolute inset-0 bg-black/50 -z-10" />}
+  <!-- contenido dinámico -->
+  <main class="h-full w-full grid place-items-center">
+    <slot />
+  </main>
+</section>
