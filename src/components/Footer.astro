@@ -1,57 +1,30 @@
 ---
+
 ---
 
-<footer class="bg-primary-blue text-white">
+<footer class="bg-primary-blue-800 text-primary-blue-200">
   <div
-    class="container mx-auto flex flex-col gap-6 px-6 py-8 text-sm md:flex-row md:items-center md:justify-between"
+    class="container mx-auto flex flex-col gap-6 px-6 py-8 text-sm md:flex-row md:items-center md:justify-center md:gap-12"
   >
-    <nav class="flex flex-col gap-4 md:flex-row md:items-center md:gap-8">
+    <nav
+      class="flex flex-col gap-4 md:flex-row md:items-center md:gap-8 lg:text-lg"
+    >
       <a
         href="#Citas"
-        class="group flex items-center gap-2 font-medium uppercase tracking-wide hover:underline"
+        class="group flex items-center gap-2 uppercase hover:underline"
       >
-        <span
-          class="flex size-6 items-center justify-center rounded-full bg-white/15 transition group-hover:bg-white"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-            class="size-3 text-white transition group-hover:text-primary-blue"
-          >
-            <path
-              fill="currentColor"
-              d="M5.5 12a.75.75 0 0 1 .75-.75h9.19l-3.22-3.22a.75.75 0 0 1 1.06-1.06l4.5 4.5a.75.75 0 0 1 0 1.06l-4.5 4.5a.75.75 0 0 1-1.06-1.06l3.22-3.22H6.25A.75.75 0 0 1 5.5 12Z"
-            />
-          </svg>
-        </span>
         <span>Agenda cita</span>
       </a>
       <a
         href="https://maps.google.com/?q=Hospital+%C3%81ngeles+Lomas"
         target="_blank"
         rel="noopener noreferrer"
-        class="group flex items-center gap-2 font-medium uppercase tracking-wide hover:underline"
+        class="group flex items-center gap-2 uppercase hover:underline"
       >
-        <span
-          class="flex size-6 items-center justify-center rounded-full bg-white/15 transition group-hover:bg-white"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-            class="size-3 text-white transition group-hover:text-primary-blue"
-          >
-            <path
-              fill="currentColor"
-              d="M12 2.25a6.75 6.75 0 0 0-6.75 6.75c0 2.98 1.44 5.36 3.23 7.3a27.2 27.2 0 0 0 3.18 2.85c.18.14.45.14.63 0a27.2 27.2 0 0 0 3.18-2.85c1.79-1.94 3.23-4.32 3.23-7.3A6.75 6.75 0 0 0 12 2.25Zm0 9.5a2.75 2.75 0 1 1 0-5.5 2.75 2.75 0 0 1 0 5.5ZM5.5 20.25a.75.75 0 0 1 .75-.75h11.5a.75.75 0 0 1 0 1.5H6.25a.75.75 0 0 1-.75-.75Z"
-            />
-          </svg>
-        </span>
         <span>Ubicación</span>
       </a>
     </nav>
-    <p class="text-xs uppercase tracking-[0.25em] text-white/80 text-center md:text-right">
+    <p class="uppercase text-center lg:text-lg">
       Copyright © 2025 clinicamaternofetal.com.mx
     </p>
   </div>
@@ -59,8 +32,4 @@
 
 <style>
   @reference "../styles/global.css";
-
-  footer {
-    @apply mt-12;
-  }
 </style>
