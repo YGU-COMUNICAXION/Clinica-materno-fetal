@@ -1,5 +1,5 @@
-import type { ReactNode, MouseEvent } from 'react';
-import { useEffect, useId, useRef } from 'react';
+import type { ReactNode, MouseEvent } from "react";
+import { useEffect, useId, useRef } from "react";
 
 export type ModalProps = {
   open: boolean;
@@ -10,7 +10,14 @@ export type ModalProps = {
   footer?: ReactNode;
 };
 
-export default function Modal({ open, onClose, title, description, children, footer }: ModalProps) {
+export default function Modal({
+  open,
+  onClose,
+  title,
+  description,
+  children,
+  footer,
+}: ModalProps) {
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const previouslyFocusedElement = useRef<Element | null>(null);
 
@@ -22,20 +29,20 @@ export default function Modal({ open, onClose, title, description, children, foo
     previouslyFocusedElement.current = document.activeElement;
 
     const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
+      if (event.key === "Escape") {
         event.preventDefault();
         onClose();
       }
     };
 
-    document.addEventListener('keydown', handleKeyDown);
+    document.addEventListener("keydown", handleKeyDown);
     const originalOverflow = document.body.style.overflow;
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
 
     closeButtonRef.current?.focus();
 
     return () => {
-      document.removeEventListener('keydown', handleKeyDown);
+      document.removeEventListener("keydown", handleKeyDown);
       document.body.style.overflow = originalOverflow;
       if (previouslyFocusedElement.current instanceof HTMLElement) {
         previouslyFocusedElement.current.focus();
@@ -63,7 +70,7 @@ export default function Modal({ open, onClose, title, description, children, foo
       onClick={onOverlayClick}
     >
       <div
-        className="relative w-full max-w-3xl overflow-hidden rounded-3xl bg-white shadow-2xl"
+        className="relative w-full max-w-3xl lg:max-w-5xl overflow-hidden rounded-3xl bg-white shadow-2xl"
         role="dialog"
         aria-modal="true"
         aria-labelledby={title ? headingId : undefined}
@@ -72,12 +79,18 @@ export default function Modal({ open, onClose, title, description, children, foo
         <div className="flex items-start justify-between gap-6 border-b border-slate-100 px-8 py-6">
           <div className="flex-1">
             {title ? (
-              <h2 id={headingId} className="text-xl font-semibold text-slate-900">
+              <h2
+                id={headingId}
+                className="text-xl font-semibold text-primary-blue-800"
+              >
                 {title}
               </h2>
             ) : null}
             {description ? (
-              <p id={descriptionId} className="mt-2 text-sm text-slate-600">
+              <p
+                id={descriptionId}
+                className="mt-2 text-base font-light text-primary-blue-600"
+              >
                 {description}
               </p>
             ) : null}
@@ -86,7 +99,9 @@ export default function Modal({ open, onClose, title, description, children, foo
             type="button"
             onClick={onClose}
             ref={closeButtonRef}
-            className="rounded-full border border-slate-200 p-2 text-slate-500 transition hover:border-slate-300 hover:text-slate-700 focus:outline-none focus-visible:ring focus-visible:ring-slate-300 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
+            className="rounded-full border border-slate-200 p-2 text-primary-blue-600 transition
+            hover:border-slate-300 hover:text-primary-blue-800 focus:outline-none focus-visible:ring
+            focus-visible:ring-slate-300 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
             aria-label="Cerrar"
           >
             <svg
@@ -97,16 +112,20 @@ export default function Modal({ open, onClose, title, description, children, foo
               strokeWidth="1.5"
               className="h-5 w-5"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M18 6 6 18M6 6l12 12" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M18 6 6 18M6 6l12 12"
+              />
             </svg>
           </button>
         </div>
 
-        <div className="max-h-[70vh] overflow-y-auto px-8 py-6">
-          {children}
-        </div>
+        <div className="max-h-[70vh] overflow-y-auto px-8 py-0">{children}</div>
 
-        {footer ? <div className="border-t border-slate-100 px-8 py-6">{footer}</div> : null}
+        {footer ? (
+          <div className="border-t border-slate-100 px-8 py-6">{footer}</div>
+        ) : null}
       </div>
     </div>
   );
