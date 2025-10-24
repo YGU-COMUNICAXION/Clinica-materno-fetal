@@ -22,7 +22,7 @@ const isDarkVariant = variant === "dark";
   class:list={[
     "group/header flex items-center justify-center",
     "z-20 fixed w-full left-0 right-0 transition-colors duration-300",
-    "bg-transparent",
+    variant === "dark" ? "bg-transparent" : "bg-white",
   ]}
 >
   <div
@@ -80,7 +80,7 @@ const isDarkVariant = variant === "dark";
         "transition-[top] duration-300 ease-in-out lg:transition-none",
         "lg:static lg:flex-1 lg:flex lg:items-center lg:gap-4 lg:pt-1 lg:bg-transparent",
         isDarkVariant
-          ? "bg-primary-forest lg:bg-transparent"
+          ? "bg-primary-blue-600 lg:bg-transparent"
           : "bg-white lg:bg-transparent",
       ]}
     >
@@ -172,7 +172,7 @@ const isDarkVariant = variant === "dark";
           "shadow-md"
         );
       } else {
-        header.classList.add("bg-transparent");
+        header.classList.add(isDark ? "bg-transparent" : "bg-white");
       }
 
       header.setAttribute("data-scrolled", scrolled ? "true" : "false");
@@ -221,5 +221,14 @@ const isDarkVariant = variant === "dark";
       },
       { once: true }
     );
+
+    // Active link
+    const currentPath = window.location.pathname;
+    const navLinks = navigatorMenu.querySelectorAll("a");
+    navLinks.forEach((link) => {
+      if (link.getAttribute("href") === currentPath) {
+        link.classList.add("active");
+      }
+    });
   });
 </script>

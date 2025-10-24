@@ -2,48 +2,52 @@
 import Layout from "@layouts/Layout.astro";
 ---
 
-<Layout headerVariant="dark">
-  <section class="grid min-h-dvh grid-cols-1 lg:grid-cols-2">
-    <div class="flex items-center bg-primary-blue py-16 text-white">
-      <div class="container mx-auto flex w-full max-w-xl flex-col gap-10 px-6">
+<Layout headerVariant="light">
+  <section class="mt-12 lg:mt-24 grid min-h-dvh grid-cols-1 lg:grid-cols-2">
+    <div class="flex items-center bg-primary-blue py-16 text-primary-blue-200">
+      <div class="container mx-auto flex w-full max-w-2xl flex-col gap-10">
         <header class="flex flex-col gap-4">
           <h1 class="text-3xl font-normal leading-snug md:text-4xl">
             Nuestros servicios y especialistas te esperan
           </h1>
-          <p class="text-base text-white/80 md:text-lg">
-            Si buscas agendar una cita para alguno de nuestros servicios, contáctanos en los siguientes teléfonos.
+          <p class="text-base md:text-lg font-light">
+            Si buscas agendar una cita para alguno de nuestros servicios,
+            contáctanos en los siguientes teléfonos.
           </p>
         </header>
 
         <dl class="flex flex-col gap-6">
           <div class="flex flex-col gap-2">
-            <dt class="text-xs font-semibold uppercase tracking-[0.25em] text-white/70">
-              Telefonos
-            </dt>
-            <dd class="flex flex-col gap-1 text-lg leading-relaxed">
-              <span>Tel: 55 5246 5000 Ext. 3088</span>
-              <span>Tel directo: 55 5247 2668</span>
-              <span>Para referir a una paciente o solicitar una consulta, por favor contáctanos directamente.</span>
+            <dt class="text-base lg:text-lg font-bold">Telefonos</dt>
+            <dd
+              class="flex flex-col gap-1 text-lg font-light leading-relaxed [&>span>b]:font-semibold"
+            >
+              <span><b>Tel:</b> 55 5246 5000 <b>Ext. 3088</b></span>
+              <span><b>Tel directo:</b> 55 5247 2668</span>
+              <span
+                >Para referir a una paciente o solicitar una consulta, por favor
+                contáctanos directamente.</span
+              >
             </dd>
           </div>
 
           <div class="flex flex-col gap-2">
-            <dt class="text-xs font-semibold uppercase tracking-[0.25em] text-white/70">
-              Horario de atención
-            </dt>
-            <dd class="text-base leading-relaxed">
-              Lunes a viernes: 9:00 a 20:30 horas
+            <dt class="text-base lg:text-lg font-bold">Horario de atención</dt>
+            <dd
+              class="text-base leading-relaxed font-light [&>span>b]:font-semibold"
+            >
+              <b>Lunes a viernes:</b> 9:00 a 20:30 horas
               <br />
-              Sábado: 9:00 a 13:00 horas
+              <b>Sábado:</b> 9:00 a 13:00 horas
             </dd>
           </div>
 
           <div class="flex flex-col gap-2">
-            <dt class="text-xs font-semibold uppercase tracking-[0.25em] text-white/70">
-              Ubicación
-            </dt>
-            <dd class="text-base leading-relaxed">
-              Hospital Angeles Lomas
+            <dt class="text-base lg:text-lg font-bold">Ubicación</dt>
+            <dd
+              class="text-base leading-relaxed font-light [&>span>b]:font-semibold"
+            >
+              <b>Hospital Angeles Lomas</b>
               <br />
               Vialidad de la Barranca S/N
               <br />
@@ -59,7 +63,8 @@ import Layout from "@layouts/Layout.astro";
             href="https://www.google.com/maps?q=Hospital+%C3%81ngeles+Lomas&output=embed"
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center gap-3 rounded-full border border-white/70 px-6 py-3 text-sm font-semibold uppercase tracking-[0.3em] text-white transition hover:border-white hover:bg-white/10"
+            class="inline-flex items-center gap-3 rounded-full border border-white/70 px-6 py-2
+            text-sm lg:text-base font-light uppercase text-white transition hover:border-white hover:bg-white/10"
           >
             Ver ubicación
           </a>
@@ -77,8 +82,7 @@ import Layout from "@layouts/Layout.astro";
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
         title="Ubicación Hospital Ángeles Lomas"
-        class="h-full min-h-[320px] w-full"
-      ></iframe>
+        class="h-full min-h-[320px] w-full"></iframe>
     </div>
   </section>
 </Layout>
