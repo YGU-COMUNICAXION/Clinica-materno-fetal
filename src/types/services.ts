@@ -8,6 +8,7 @@ export type ServiceModalSection = {
 
 export type ServiceModalData = {
   ctaLabel: string;
+  intro?: string[];
   sections: ServiceModalSection[];
 };
 
