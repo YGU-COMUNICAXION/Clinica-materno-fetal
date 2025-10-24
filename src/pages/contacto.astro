@@ -1,0 +1,84 @@
+---
+import Layout from "@layouts/Layout.astro";
+---
+
+<Layout headerVariant="dark">
+  <section
+    class="grid min-h-[640px] grid-cols-1 overflow-hidden bg-white lg:grid-cols-[1.05fr_1fr]"
+  >
+    <div class="flex items-center py-16">
+      <div
+        class="container mx-auto flex w-full max-w-xl flex-col gap-12 px-6 text-primary-blue"
+      >
+        <header class="flex flex-col gap-4">
+          <h1 class="text-3xl font-normal leading-snug md:text-4xl">
+            Nuestros servicios y especialistas te esperan
+          </h1>
+        </header>
+
+        <dl class="flex flex-col gap-8 text-base leading-relaxed text-primary-grey">
+          <div class="flex flex-col gap-3">
+            <dt class="text-xs font-semibold uppercase tracking-[0.25em] text-primary-blue">
+              Telefonos
+            </dt>
+            <dd class="flex flex-col gap-1">
+              <span>Tel: 55 5246 5000 Ext. 3088</span>
+              <span>Tel directo: 55 5247 2668</span>
+              <span>
+                Para referir a una paciente o solicitar una consulta, por favor contáctanos directamente.
+              </span>
+            </dd>
+          </div>
+
+          <div class="flex flex-col gap-3">
+            <dt class="text-xs font-semibold uppercase tracking-[0.25em] text-primary-blue">
+              Horario de atención
+            </dt>
+            <dd>
+              Lunes a viernes: 9:00 a 20:30 horas
+              <br />
+              Sábado: 9:00 a 13:00 horas
+            </dd>
+          </div>
+
+          <div class="flex flex-col gap-3">
+            <dt class="text-xs font-semibold uppercase tracking-[0.25em] text-primary-blue">
+              Ubicación
+            </dt>
+            <dd>
+              Hospital Angeles Lomas
+              <br />
+              Vialidad de la Barranca S/N
+              <br />
+              Col. Valle de las Palmas
+              <br />
+              Huixquilucan, Estado de México. C.P. 52763
+            </dd>
+          </div>
+        </dl>
+
+        <div>
+          <a
+            href="https://www.google.com/maps?q=Hospital+%C3%81ngeles+Lomas&output=embed"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-3 rounded-full border border-primary-blue px-6 py-3 text-sm font-semibold uppercase tracking-[0.3em] text-primary-blue transition-colors hover:bg-primary-blue hover:text-white"
+          >
+            Ver ubicación
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative min-h-[320px]">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.544502684417!2d-99.26260942397454!3d19.481294681817535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f66f5063b6fb%3A0x9cec4367b38b61c2!2sHospital%20%C3%81ngeles%20Lomas!5e0!3m2!1ses-419!2smx!4v1739034972000!5m2!1ses-419!2smx"
+        title="Ubicación Hospital Ángeles Lomas"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowFullScreen
+        class="absolute inset-0 h-full w-full border-0"
+      ></iframe>
+    </div>
+  </section>
+</Layout>
