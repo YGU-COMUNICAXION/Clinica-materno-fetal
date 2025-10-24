@@ -17,7 +17,11 @@ export default function ServiceModal({
   }
 
   const { title, subtitle, modal } = service;
-  const { ctaLabel, intro, sections } = modal;
+  const { ctaLabel, generalDescription, sections } = modal;
+
+  const hasHowWeDoItSection = sections.some((section) =>
+    section.title.toLowerCase().includes("cómo lo realizamos")
+  );
 
   return (
     <Modal
@@ -40,48 +44,63 @@ export default function ServiceModal({
       }
     >
       <div className="flex flex-col gap-8 py-8">
-        {intro?.length ? (
-          <div className="space-y-4">
-            {intro.map((paragraph, index) => (
-              <p
-                key={`intro-paragraph-${index}`}
-                className="text-sm leading-relaxed text-primary-grey-800 md:text-base"
-              >
-                {paragraph}
-              </p>
-            ))}
-          </div>
+        {generalDescription ? (
+          <div
+            className="text-sm leading-relaxed text-primary-grey-800 md:text-base [&>p]:mb-4 [&>p:last-child]:mb-0 [&>ul]:mb-4 [&>ul]:list-disc [&>ul]:pl-6 [&>ul>li]:marker:text-primary-blue"
+            dangerouslySetInnerHTML={{ __html: generalDescription }}
+          />
         ) : null}
 
         <div className="grid gap-8 md:grid-cols-2">
-          {sections.map((section) => (
-            <section key={section.title} className="space-y-4">
-              <h3 className="text-lg font-semibold text-primary-blue-800">
-                {section.title}
-              </h3>
-              {section.description?.map((paragraph, index) => (
-                <p
-                  key={`${section.title}-paragraph-${index}`}
-                  className="text-sm leading-relaxed text-primary-grey-800 md:text-base"
-                >
-                  {paragraph}
-                </p>
-              ))}
-              {section.items ? (
-                <ul className="space-y-3 pl-1 text-sm leading-relaxed text-primary-grey-800 md:text-base">
-                  {section.items.map((item, index) => (
-                    <li
-                      key={`${section.title}-item-${index}`}
-                      className="flex gap-3"
-                    >
-                      <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary-blue"></span>
-                      <span className="flex-1">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              ) : null}
-            </section>
-          ))}
+          {sections.map((section) => {
+            const isWhatItConsistsSection = section.title
+              .toLowerCase()
+              .includes("en qué consiste");
+            const spanFullWidth =
+              section.layout === "full" ||
+              (!hasHowWeDoItSection && isWhatItConsistsSection);
+
+            return (
+              <section
+                key={section.title}
+                className={`space-y-4 ${spanFullWidth ? "md:col-span-2" : ""}`}
+              >
+                <h3 className="text-lg font-semibold text-primary-blue-800">
+                  {section.title}
+                </h3>
+                {section.content ? (
+                  <div
+                    className="space-y-4 text-sm leading-relaxed text-primary-grey-800 md:text-base [&>p]:leading-relaxed [&>ul]:space-y-3 [&>ul]:pl-6 [&>ul]:list-disc [&>ul>li]:marker:text-primary-blue"
+                    dangerouslySetInnerHTML={{ __html: section.content }}
+                  />
+                ) : (
+                  <>
+                    {section.description?.map((paragraph, index) => (
+                      <p
+                        key={`${section.title}-paragraph-${index}`}
+                        className="text-sm leading-relaxed text-primary-grey-800 md:text-base"
+                      >
+                        {paragraph}
+                      </p>
+                    ))}
+                    {section.items ? (
+                      <ul className="space-y-3 pl-1 text-sm leading-relaxed text-primary-grey-800 md:text-base">
+                        {section.items.map((item, index) => (
+                          <li
+                            key={`${section.title}-item-${index}`}
+                            className="flex gap-3"
+                          >
+                            <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary-blue"></span>
+                            <span className="flex-1">{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : null}
+                  </>
+                )}
+              </section>
+            );
+          })}
         </div>
       </div>
     </Modal>
