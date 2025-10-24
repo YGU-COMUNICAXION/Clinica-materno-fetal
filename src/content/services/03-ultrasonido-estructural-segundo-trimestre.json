@@ -1,0 +1,35 @@
+{
+  "order": 3,
+  "title": "Ultrasonido Estructural o Morfológico del Segundo Trimestre",
+  "subtitle": "Semanas 18-24",
+  "description": "Analizamos detalladamente la anatomía fetal, placenta, cordón y líquido amniótico.",
+  "image": "03.jpg",
+  "modal": {
+    "ctaLabel": "Agenda tu estudio",
+    "sections": [
+      {
+        "title": "¿En qué consiste?",
+        "description": [
+          "Es una evaluación sistemática de todos los órganos y sistemas fetales para identificar oportunamente malformaciones congénitas.",
+          "Revisamos la placenta, el cordón umbilical y el líquido amniótico para garantizar condiciones óptimas de desarrollo."
+        ]
+      },
+      {
+        "title": "¿Cómo lo realizamos?",
+        "description": [
+          "Seguimos protocolos internacionales de medicina materno-fetal apoyados en tecnología de ultrasonido de alta definición con reconstrucciones multiplanares cuando es necesario."
+        ]
+      },
+      {
+        "title": "¿Qué evalúa este estudio?",
+        "items": [
+          "Cerebro, columna, cara y cuello fetales.",
+          "Corazón fetal con cortes estándar de cribado.",
+          "Tórax, abdomen, sistema digestivo y genitourinario.",
+          "Extremidades, manos y pies.",
+          "Implantación placentaria, cordón umbilical y volumen de líquido amniótico."
+        ]
+      }
+    ]
+  }
+}

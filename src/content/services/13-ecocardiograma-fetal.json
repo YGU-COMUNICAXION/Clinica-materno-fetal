@@ -1,0 +1,33 @@
+{
+  "order": 13,
+  "title": "Ecocardiograma Fetal (Cardiología y Neurosonografía)",
+  "description": "Evaluamos detalladamente la estructura y función del corazón y el cerebro fetal.",
+  "image": "13.jpg",
+  "modal": {
+    "ctaLabel": "Agenda tu estudio",
+    "sections": [
+      {
+        "title": "¿En qué consiste?",
+        "description": [
+          "Realizamos una exploración especializada del corazón fetal para descartar cardiopatías congénitas y evaluar el sistema nervioso central.",
+          "Forma parte del seguimiento de embarazos de alto riesgo o con antecedentes familiares relevantes."
+        ]
+      },
+      {
+        "title": "¿Cómo lo realizamos?",
+        "description": [
+          "Aplicamos protocolos avanzados de cardiología fetal con Doppler color, espectral y técnicas de neurosonografía transvaginal cuando está indicado."
+        ]
+      },
+      {
+        "title": "¿Qué evalúa este estudio?",
+        "items": [
+          "Anatomía cardiaca segmentaria y conexiones vasculares.",
+          "Función cardiaca y flujo sanguíneo en cavidades y grandes vasos.",
+          "Estructuras cerebrales centrales y periféricas.",
+          "Riesgo de complicaciones neurológicas asociadas a cardiopatías."
+        ]
+      }
+    ]
+  }
+}

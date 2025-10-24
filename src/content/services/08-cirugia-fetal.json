@@ -1,0 +1,33 @@
+{
+  "order": 8,
+  "title": "Cirugía Fetal",
+  "description": "Procedimientos mínimamente invasivos para corregir condiciones fetales antes del nacimiento.",
+  "image": "08.jpg",
+  "modal": {
+    "ctaLabel": "Agenda tu estudio",
+    "sections": [
+      {
+        "title": "¿En qué consiste?",
+        "description": [
+          "Ofrecemos intervenciones intrauterinas para tratar patologías fetales seleccionadas con el objetivo de mejorar el pronóstico neonatal.",
+          "Nuestro equipo multidisciplinario valora cada caso para definir la mejor estrategia terapéutica."
+        ]
+      },
+      {
+        "title": "¿Cómo lo realizamos?",
+        "description": [
+          "Contamos con tecnología de endoscopia fetal (fetoscopia) y procedimientos guiados por imagen en quirófano especializado, siguiendo estándares internacionales."
+        ]
+      },
+      {
+        "title": "¿Qué evalúa este estudio?",
+        "items": [
+          "Hernia diafragmática congénita.",
+          "Síndrome de transfusión feto-fetal en gestaciones gemelares.",
+          "Obstrucciones urinarias fetales.",
+          "Anemia fetal severa y otras condiciones candidatas a terapia intrauterina."
+        ]
+      }
+    ]
+  }
+}

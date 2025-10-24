@@ -1,0 +1,33 @@
+{
+  "order": 5,
+  "title": "Ultrasonido 2D, 4D y 5D",
+  "description": "Estudio de alta resolución para observar en detalle los rasgos y movimientos fetales.",
+  "image": "05.jpg",
+  "modal": {
+    "ctaLabel": "Agenda tu estudio",
+    "sections": [
+      {
+        "title": "¿En qué consiste?",
+        "description": [
+          "Complementa la evaluación médica con imágenes tridimensionales y en tiempo real que permiten apreciar rasgos faciales y movimientos del bebé.",
+          "Es un estudio ideal para crear un vínculo visual con el bebé manteniendo el enfoque clínico del seguimiento."
+        ]
+      },
+      {
+        "title": "¿Cómo lo realizamos?",
+        "description": [
+          "Utilizamos equipos especializados que combinan modos 2D, 3D/4D y renderizados 5D para obtener la mejor representación posible durante la sesión."
+        ]
+      },
+      {
+        "title": "¿Qué evalúa este estudio?",
+        "items": [
+          "Rasgos faciales, manos y pies con alta definición.",
+          "Movimientos y gestos fetales en tiempo real.",
+          "Placenta, cordón y entorno fetal con perspectiva volumétrica.",
+          "Documentación visual complementaria al seguimiento obstétrico."
+        ]
+      }
+    ]
+  }
+}
