@@ -1,0 +1,33 @@
+{
+  "order": 6,
+  "title": "Estudio Doppler de Flujo Sanguíneo",
+  "description": "Evaluamos la circulación sanguínea materno-fetal para diagnosticar restricción de crecimiento.",
+  "image": "06.jpg",
+  "modal": {
+    "ctaLabel": "Agenda tu estudio",
+    "sections": [
+      {
+        "title": "¿En qué consiste?",
+        "description": [
+          "Analizamos la resistencia y velocidad del flujo sanguíneo en vasos maternos y fetales para asegurar una adecuada oxigenación del bebé.",
+          "Permite detectar oportunamente alteraciones placentarias y riesgos de restricción de crecimiento intrauterino."
+        ]
+      },
+      {
+        "title": "¿Cómo lo realizamos?",
+        "description": [
+          "Aplicamos Doppler pulsado y color en arterias uterinas, umbilicales, cerebral media y ductus venoso según la indicación clínica."
+        ]
+      },
+      {
+        "title": "¿Qué evalúa este estudio?",
+        "items": [
+          "Perfusión uteroplacentaria y riesgo de preeclampsia.",
+          "Resistencia en arteria umbilical y bienestar placentario.",
+          "Redistribución sanguínea a nivel cerebral fetal.",
+          "Signos de compromiso hemodinámico fetal y necesidad de vigilancia estrecha."
+        ]
+      }
+    ]
+  }
+}

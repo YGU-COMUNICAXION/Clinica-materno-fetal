@@ -1,0 +1,33 @@
+{
+  "order": 12,
+  "title": "Resonancia Magnética Fetal",
+  "description": "Imagen avanzada para evaluar la anatomía fetal cuando el ultrasonido no es concluyente.",
+  "image": "12.jpg",
+  "modal": {
+    "ctaLabel": "Agenda tu estudio",
+    "sections": [
+      {
+        "title": "¿En qué consiste?",
+        "description": [
+          "La resonancia magnética complementa al ultrasonido al ofrecer una visión detallada de órganos y estructuras fetales complejas.",
+          "Se recomienda cuando existen hallazgos dudosos o se requiere planificar el manejo neonatal con mayor precisión."
+        ]
+      },
+      {
+        "title": "¿Cómo lo realizamos?",
+        "description": [
+          "Trabajamos con centros especializados en imagen fetal que utilizan equipos de alto campo y protocolos seguros para el embarazo."
+        ]
+      },
+      {
+        "title": "¿Qué evalúa este estudio?",
+        "items": [
+          "Cerebro y sistema nervioso central con detalle anatómico superior.",
+          "Tórax, abdomen y estructuras musculoesqueléticas cuando el ultrasonido tiene limitaciones.",
+          "Extensión de malformaciones complejas para planificar el tratamiento.",
+          "Condiciones placentarias y de cordón umbilical específicas."
+        ]
+      }
+    ]
+  }
+}

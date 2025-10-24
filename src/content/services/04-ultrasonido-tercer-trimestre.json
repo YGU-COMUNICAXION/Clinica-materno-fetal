@@ -1,0 +1,34 @@
+{
+  "order": 4,
+  "title": "Ultrasonido del Tercer Trimestre",
+  "subtitle": "Semanas 27-41",
+  "description": "Monitorizamos el crecimiento fetal, bienestar, posición y las condiciones placentarias.",
+  "image": "04.jpg",
+  "modal": {
+    "ctaLabel": "Agenda tu estudio",
+    "sections": [
+      {
+        "title": "¿En qué consiste?",
+        "description": [
+          "Revisamos el crecimiento y bienestar fetal durante el último trimestre del embarazo, confirmando que el bebé mantiene un desarrollo adecuado.",
+          "Se valora la posición fetal, cantidad de líquido amniótico y la localización placentaria previo al nacimiento."
+        ]
+      },
+      {
+        "title": "¿Cómo lo realizamos?",
+        "description": [
+          "Mediante ultrasonido obstétrico abdominal complementado con Doppler cuando hay indicación médica, utilizando curvas de crecimiento personalizadas."
+        ]
+      },
+      {
+        "title": "¿Qué evalúa este estudio?",
+        "items": [
+          "Peso fetal estimado y percentiles de crecimiento.",
+          "Movimientos fetales, tono y respiración según edad gestacional.",
+          "Volumen de líquido amniótico y características placentarias.",
+          "Posición fetal y bienestar general previo al parto."
+        ]
+      }
+    ]
+  }
+}

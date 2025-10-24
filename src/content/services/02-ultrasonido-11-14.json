@@ -1,0 +1,34 @@
+{
+  "order": 2,
+  "title": "Ultrasonido 11-14 y Ultrasonido Estructural",
+  "subtitle": "Semanas 11-14",
+  "description": "Identificamos malformaciones mayores y estimamos el riesgo de Síndrome de Down y preeclampsia.",
+  "image": "02.jpg",
+  "modal": {
+    "ctaLabel": "Agenda tu estudio",
+    "sections": [
+      {
+        "title": "¿En qué consiste?",
+        "description": [
+          "Realizamos un estudio detallado de la anatomía fetal temprana para detectar alteraciones estructurales evidentes y marcadores de aneuploidías.",
+          "Integramos mediciones maternas y ecográficas para calcular el riesgo combinado de Síndrome de Down, otras trisomías y preeclampsia."
+        ]
+      },
+      {
+        "title": "¿Cómo lo realizamos?",
+        "description": [
+          "Utilizamos ultrasonido abdominal y, cuando se requiere mayor precisión, complementamos con abordaje transvaginal. Aplicamos protocolos avalados por la Fetal Medicine Foundation (FMF)."
+        ]
+      },
+      {
+        "title": "¿Qué evalúa este estudio?",
+        "items": [
+          "Translucencia nucal, hueso nasal, ductus venoso y regurgitación tricuspídea.",
+          "Presencia de malformaciones mayores visibles en primer trimestre.",
+          "Marcadores uterinos y Doppler de arterias uterinas para predecir preeclampsia.",
+          "Correlación con marcadores bioquímicos cuando se cuenta con ellos."
+        ]
+      }
+    ]
+  }
+}

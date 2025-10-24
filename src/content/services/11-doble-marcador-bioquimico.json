@@ -1,0 +1,33 @@
+{
+  "order": 11,
+  "title": "Doble Marcador Bioquímico (screening del primer trimestre)",
+  "description": "Cuantificamos marcadores bioquímicos maternos para estimar riesgos cromosómicos.",
+  "image": "11.jpg",
+  "modal": {
+    "ctaLabel": "Agenda tu estudio",
+    "sections": [
+      {
+        "title": "¿En qué consiste?",
+        "description": [
+          "Se cuantifican las hormonas PAPP-A y beta hCG libre en sangre materna para combinarlas con el ultrasonido 11-14.",
+          "Con esta información se obtiene un riesgo individualizado de alteraciones cromosómicas."
+        ]
+      },
+      {
+        "title": "¿Cómo lo realizamos?",
+        "description": [
+          "Tomamos una muestra de sangre materna y la analizamos en laboratorios certificados que siguen los lineamientos de la FMF."
+        ]
+      },
+      {
+        "title": "¿Qué evalúa este estudio?",
+        "items": [
+          "Riesgo de Síndrome de Down (trisomía 21).",
+          "Riesgo de trisomía 18 y 13.",
+          "Indicadores bioquímicos de alteraciones placentarias relacionadas con preeclampsia.",
+          "Base para decidir pruebas complementarias o diagnósticas."
+        ]
+      }
+    ]
+  }
+}
