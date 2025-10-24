@@ -5,6 +5,7 @@ import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import HeroBanner from "@components/HeroBanner.astro";
 import AboutStrip from "@components/pages/home/AboutStrip.astro";
+import CtaSection from "@components/pages/home/CtaSection.astro";
 import ServicesGrid from "@components/services/ServicesGrid.tsx";
 import type { Service } from "../types/services";
 
@@ -74,4 +75,5 @@ const services: Service[] = (await getCollection("services"))
       <ServicesGrid services={services} client:load />
     </div>
   </section>
+  <CtaSection />
 </Layout>

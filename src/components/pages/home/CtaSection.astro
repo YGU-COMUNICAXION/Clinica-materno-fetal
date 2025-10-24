@@ -1,0 +1,39 @@
+---
+interface Props {
+  message?: string;
+  buttonLabel?: string;
+  backgroundClass?: string;
+}
+
+const {
+  message = "Con nuestros expertos en medicina materno fetal, protege tu salud y la de tu bebé desde el primer momento.",
+  buttonLabel = "Agenda tu cita",
+  backgroundClass = "",
+} = Astro.props satisfies Props;
+---
+
+<section
+  class={`relative w-full py-16 md:py-20 ${backgroundClass}`.trim()}
+  aria-label="Llamado a la acción principal"
+>
+  <div class="container mx-auto px-4">
+    <div
+      class="mx-auto max-w-3xl lg:max-w-4xl text-center text-primary-blue-800"
+    >
+      <p class="text-xl md:text-2xl font-normal leading-relaxed tracking-wide">
+        {message}
+      </p>
+
+      <button
+        type="button"
+        class="mt-8 inline-flex items-center justify-center rounded-full uppercase
+        border border-primary-blue-800 px-8 py-3 text-sm md:text-base lg:text-xl
+        font-normal bg-primary-blue-800 text-white
+        transition hover:bg-primary-blue-50
+        focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-primary-blue-200"
+      >
+        {buttonLabel}
+      </button>
+    </div>
+  </div>
+</section>
