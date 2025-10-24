@@ -1,0 +1,66 @@
+---
+import iconInstagram from "@assets/svg/icons/Instagram.svg";
+import iconFacebook from "@assets/svg/icons/Facebook.svg";
+import { Image } from "astro:assets";
+---
+
+<footer class="bg-primary-blue-800 text-primary-blue-200">
+  <div
+    class="container mx-auto flex flex-col
+    gap-6 px-6 py-8 text-sm md:flex-row md:items-center
+    md:justify-center md:gap-8"
+  >
+    <div class="flex gap-4">
+      <a
+        href="https://www.instagram.com/clinicamaternofetal/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="group flex items-center gap-2 hover:underline"
+      >
+        <Image
+          src={iconInstagram}
+          alt="Instagram"
+          class="size-6 lg:size-5 fill-primary-blue-200 transition group-hover:fill-white"
+        />
+      </a>
+      <a
+        href="https://www.facebook.com/clinicamaternofetal"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="group flex items-center gap-2 hover:underline"
+      >
+        <Image
+          src={iconFacebook}
+          alt="Facebook"
+          class="size-6 lg:size-5 fill-primary-blue-200 transition group-hover:fill-white"
+        />
+      </a>
+    </div>
+    <nav
+      class="border-blue-50 border-l-2 pl-4
+       flex flex-col gap-4 md:flex-row md:items-center md:gap-8 lg:text-lg"
+    >
+      <a
+        href="#Citas"
+        class="group flex items-center gap-2 uppercase hover:underline"
+      >
+        <span>Agenda cita</span>
+      </a>
+      <a
+        href="https://maps.google.com/?q=Hospital+%C3%81ngeles+Lomas"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="group flex items-center gap-2 uppercase hover:underline"
+      >
+        <span>Ubicación</span>
+      </a>
+    </nav>
+    <p class="uppercase text-center lg:text-lg">
+      Copyright © 2025 clinicamaternofetal.com.mx
+    </p>
+  </div>
+</footer>
+
+<style>
+  @reference "../styles/global.css";
+</style>

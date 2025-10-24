@@ -1,0 +1,35 @@
+{
+  "order": 1,
+  "title": "Ultrasonido del Primer Trimestre",
+  "subtitle": "Semanas 6-10",
+  "description": "Confirmamos la ubicación e implantación adecuada del embrión y su desarrollo inicial.",
+  "image": "01.jpg",
+  "modal": {
+    "ctaLabel": "Agenda tu estudio",
+    "sections": [
+      {
+        "title": "¿En qué consiste?",
+        "description": [
+          "Corroboramos que el embarazo se encuentre dentro del útero, determinamos el número de embriones y verificamos su vitalidad mediante la detección del latido cardiaco.",
+          "Calculamos la edad gestacional y evaluamos la implantación inicial para descartar complicaciones tempranas."
+        ]
+      },
+      {
+        "title": "¿Cómo lo realizamos?",
+        "description": [
+          "Empleamos ultrasonido transvaginal de alta resolución que permite visualizar la gestación en etapas tempranas con gran precisión, ofreciendo una exploración detallada del saco gestacional, saco vitelino y embrión."
+        ]
+      },
+      {
+        "title": "¿Qué evalúa este estudio?",
+        "items": [
+          "Ubicación del embarazo (intrauterino o ectópico).",
+          "Número de embriones y presencia de embarazo múltiple.",
+          "Longitud céfalo-rabadilla (CRL) para datar la gestación.",
+          "Frecuencia cardiaca embrionaria y vitalidad.",
+          "Estado del útero, anexos y presencia de hematomas o complicaciones tempranas."
+        ]
+      }
+    ]
+  }
+}

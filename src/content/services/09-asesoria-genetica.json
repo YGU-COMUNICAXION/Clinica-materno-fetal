@@ -1,0 +1,33 @@
+{
+  "order": 9,
+  "title": "Asesoría genética",
+  "description": "Estudios personalizados para evaluar riesgos genéticos y acompañar decisiones informadas.",
+  "image": "09.jpg",
+  "modal": {
+    "ctaLabel": "Agenda tu estudio",
+    "sections": [
+      {
+        "title": "¿En qué consiste?",
+        "description": [
+          "Brindamos acompañamiento profesional para interpretar antecedentes familiares, resultados de estudios y pruebas genéticas disponibles.",
+          "El objetivo es proporcionar información clara y empática que permita tomar decisiones informadas durante el embarazo."
+        ]
+      },
+      {
+        "title": "¿Cómo lo realizamos?",
+        "description": [
+          "Sesiones personalizadas con especialistas en genética clínica que analizan cada caso, recomiendan estudios complementarios y explican los posibles escenarios."
+        ]
+      },
+      {
+        "title": "¿Qué evalúa este estudio?",
+        "items": [
+          "Riesgos hereditarios según antecedentes familiares.",
+          "Resultados de tamizajes prenatales y pruebas confirmatorias.",
+          "Opciones reproductivas y de seguimiento para embarazos futuros.",
+          "Necesidad de estudios específicos para los padres o el bebé."
+        ]
+      }
+    ]
+  }
+}

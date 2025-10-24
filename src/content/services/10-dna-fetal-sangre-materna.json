@@ -1,0 +1,33 @@
+{
+  "order": 10,
+  "title": "DNA Fetal en Sangre Materna (Pruebas de portadores y enfermedades monogénicas)",
+  "description": "Detectamos alteraciones cromosómicas y monogénicas mediante ADN fetal en sangre materna.",
+  "image": "10.jpg",
+  "modal": {
+    "ctaLabel": "Agenda tu estudio",
+    "sections": [
+      {
+        "title": "¿En qué consiste?",
+        "description": [
+          "Analizamos fragmentos de ADN fetal circulante en la sangre materna para identificar aneuploidías y trastornos monogénicos seleccionados.",
+          "Es una prueba de cribado no invasiva con alta sensibilidad y especificidad."
+        ]
+      },
+      {
+        "title": "¿Cómo lo realizamos?",
+        "description": [
+          "Tomamos una muestra de sangre materna y la procesamos en laboratorios certificados que emplean tecnología de secuenciación de última generación."
+        ]
+      },
+      {
+        "title": "¿Qué evalúa este estudio?",
+        "items": [
+          "Trisomías 21, 18 y 13, así como alteraciones de cromosomas sexuales.",
+          "Microdeleciones y duplicaciones específicas dependiendo del panel seleccionado.",
+          "Mutaciones monogénicas asociadas a enfermedades hereditarias cuando se solicita el estudio ampliado.",
+          "Estado de portadores en los padres para orientar la planificación familiar."
+        ]
+      }
+    ]
+  }
+}

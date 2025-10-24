@@ -1,0 +1,33 @@
+{
+  "order": 7,
+  "title": "Perfil Biofísico",
+  "description": "Medimos parámetros que indican bienestar fetal y riesgo de sufrimiento.",
+  "image": "07.jpg",
+  "modal": {
+    "ctaLabel": "Agenda tu estudio",
+    "sections": [
+      {
+        "title": "¿En qué consiste?",
+        "description": [
+          "Integra variables ecográficas y cardiotocográficas para valorar el bienestar fetal intrauterino y anticipar situaciones de riesgo.",
+          "Se recomienda en embarazos de alto riesgo o ante dudas sobre el estado del bebé."
+        ]
+      },
+      {
+        "title": "¿Cómo lo realizamos?",
+        "description": [
+          "Realizamos ultrasonido para observar movimientos, tono y respiración fetal, complementando con monitoreo fetal electrónico cuando es necesario."
+        ]
+      },
+      {
+        "title": "¿Qué evalúa este estudio?",
+        "items": [
+          "Movimientos corporales fetales.",
+          "Movimientos respiratorios y tono muscular.",
+          "Volumen de líquido amniótico.",
+          "Reactividad cardiaca mediante prueba sin estrés (cuando se integra el perfil biofísico modificado)."
+        ]
+      }
+    ]
+  }
+}
