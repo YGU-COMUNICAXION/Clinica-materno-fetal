@@ -2,7 +2,7 @@
 import { ClientRouter } from "astro:transitions";
 
 import Header from "./Header.astro";
-// import Footer from "@components/Footer.astro";
+import Footer from "@components/Footer.astro";
 import "../styles/global.css";
 import BtnWhatsApp from "./BtnWhatsApp.astro";
 
@@ -21,16 +21,16 @@ const { headerVariant = "light" }: Props = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>Arctic Roots</title>
+    <title>Clínica Materno Fetal - Hospital Angeles</title>
 
     <!-- Seo metadata -->
     <meta
       name="description"
-      content="Explora Islandia y Groenlandia a tu manera. Islandia y Groenlandia no se visitan. Se recorren, se saborean, se sienten y nunca se olvidan."
+      content="Clínica de Medicina Materno Fetal en México certificada por la Joint Commission International (JCI)"
     />
     <meta
       name="keywords"
-      content="viajes, nórdicos, polares, agencia, turismo, aventura, naturaleza, cultura, Escandinavia, Islandia, Groenlandia, Laponia, fiordos, auroras boreales"
+      content="medicina materno fetal, clínica materno fetal, hospital angeles, jci, certificación jci, salud materna, cuidado prenatal, diagnóstico prenatal, tratamiento fetal, atención obstétrica, salud perinatal"
     />
     <meta name="author" content="YGU COMUNICAXION" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -46,7 +46,7 @@ const { headerVariant = "light" }: Props = Astro.props;
     <main class="flex-1 bg-white">
       <slot />
     </main>
-    <!-- <Footer  /> -->
+    <Footer />
     <BtnWhatsApp />
   </body>
 </html>
