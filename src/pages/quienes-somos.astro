@@ -5,6 +5,7 @@ import HeroBanner from "@components/HeroBanner.astro";
 import imgBanner from "@assets/img/home/banner/banner1.jpg";
 import visionIcon from "@assets/svg/icons/Ojo.svg";
 import missionIcon from "@assets/svg/icons/flecha.svg";
+import { Image } from "astro:assets";
 ---
 
 <Layout headerVariant="dark">
@@ -29,7 +30,7 @@ import missionIcon from "@assets/svg/icons/flecha.svg";
           <div
             class="flex size-20 items-center justify-center rounded-full bg-primary-blue-200"
           >
-            <img src={visionIcon} alt="Icono de visión" class="size-12" />
+            <Image src={visionIcon} alt="Icono de visión" class="size-12" />
           </div>
 
           <div class="space-y-4">
@@ -50,7 +51,7 @@ import missionIcon from "@assets/svg/icons/flecha.svg";
           <div
             class="flex size-20 items-center justify-center rounded-full bg-primary-blue-200"
           >
-            <img src={missionIcon} alt="Icono de misión" class="size-12" />
+            <Image src={missionIcon} alt="Icono de misión" class="size-12" />
           </div>
 
           <div class="space-y-4">
