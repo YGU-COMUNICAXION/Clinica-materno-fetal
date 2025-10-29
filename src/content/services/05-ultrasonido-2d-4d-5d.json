@@ -1,32 +1,19 @@
 {
   "order": 5,
-  "title": "Ultrasonido 2D, 4D y 5D",
-  "description": "Estudio de alta resolución para observar en detalle los rasgos y movimientos fetales.",
+  "title": "Ultrasonido 3D, 4D y 4D Live",
+  "description": "Permite ver al bebé con gran detalle y en movimiento: sus gestos y facciones.",
   "image": "05.jpg",
   "modal": {
     "ctaLabel": "Agenda tu estudio",
+    "generalDescription": "<p>Los ultrasonidos en 3D, 4D y 4D Live son estudios que utilizan tecnología avanzada para ofrecer imágenes detalladas del bebé en el útero.</p><p>A diferencia del ultrasonido 2D tradicional, que muestra imágenes planas, el ultrasonido 3D proporciona imágenes tridimensionales, permitiendo ver las facciones del bebé con mayor claridad.</p><p>El ultrasonido 4D añade la dimensión del tiempo, mostrando al bebé en movimiento en tiempo real, mientras que el 4D Live ofrece una experiencia aún más fluida y detallada.</p>",
     "sections": [
       {
         "title": "¿En qué consiste?",
-        "description": [
-          "Complementa la evaluación médica con imágenes tridimensionales y en tiempo real que permiten apreciar rasgos faciales y movimientos del bebé.",
-          "Es un estudio ideal para crear un vínculo visual con el bebé manteniendo el enfoque clínico del seguimiento."
-        ]
+        "content": "<ul><li>Permite ver al bebé con gran detalle y en movimiento.</li><li>Ideal para observar las facciones y gestos del bebé.</li><li>Fortalece el vínculo emocional entre los padres y el bebé.</li><li>Se realiza generalmente entre las semanas 18 y 36.</li></ul><p>El momento óptimo para realizar estos ultrasonidos es entre las semanas 18 y 36 de embarazo, cuando el bebé tiene un tamaño adecuado y hay suficiente líquido amniótico para obtener imágenes claras.</p><p>Es importante destacar que estos estudios son seguros y no invasivos y deben ser realizados por profesionales capacitados para garantizar la calidad y precisión de las imágenes.</p>"
       },
       {
-        "title": "¿Cómo lo realizamos?",
-        "description": [
-          "Utilizamos equipos especializados que combinan modos 2D, 3D/4D y renderizados 5D para obtener la mejor representación posible durante la sesión."
-        ]
-      },
-      {
-        "title": "¿Qué evalúa este estudio?",
-        "items": [
-          "Rasgos faciales, manos y pies con alta definición.",
-          "Movimientos y gestos fetales en tiempo real.",
-          "Placenta, cordón y entorno fetal con perspectiva volumétrica.",
-          "Documentación visual complementaria al seguimiento obstétrico."
-        ]
+        "title": "Estos estudios son ideales para:",
+        "content": "<ul><li>Observar las expresiones y movimientos del bebé, como bostezos o sonrisas.</li><li>Fortalecer el vínculo emocional entre los padres y el bebé al ver imágenes realistas.</li><li>Complementar la evaluación médica del desarrollo fetal.</li></ul><p>En la Clínica de Medicina Materno Fetal, contamos con equipos de última generación y especialistas en medicina materno fetal para ofrecerte una experiencia única y segura al conocer a tu bebé antes de su nacimiento.</p>"
       }
     ]
   }

@@ -10,9 +10,12 @@ const services = defineCollection({
     image: z.string(),
     modal: z.object({
       ctaLabel: z.string(),
+      generalDescription: z.string().optional(),
       sections: z.array(
         z.object({
           title: z.string(),
+          layout: z.enum(['half', 'full']).optional(),
+          content: z.string().optional(),
           description: z.array(z.string()).optional(),
           items: z.array(z.string()).optional(),
         })

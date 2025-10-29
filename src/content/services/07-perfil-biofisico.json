@@ -1,32 +1,20 @@
 {
   "order": 7,
-  "title": "Perfil Biofísico",
-  "description": "Medimos parámetros que indican bienestar fetal y riesgo de sufrimiento.",
+  "title": "Perfil Biofísico Fetal",
+  "description": "Es útil para decidir si es necesario adelantar el nacimiento. Evalúa el bienestar y oxigenación del bebé. Observa sus movimientos, respiración y tono muscular.",
   "image": "07.jpg",
   "modal": {
     "ctaLabel": "Agenda tu estudio",
+    "generalDescription": "<p>El Perfil Biofísico Fetal es un estudio que evalúa varios parámetros del bebé para determinar su estado de bienestar, especialmente cuando se sospecha que puede haber sufrimiento fetal o en embarazos con factores de riesgo. Es una herramienta clave para la vigilancia del embarazo en el tercer trimestre, sobre todo en casos donde se sospecha insuficiencia placentaria, restricción del crecimiento fetal, diabetes materna, hipertensión o embarazos prolongados.</p>",
     "sections": [
       {
         "title": "¿En qué consiste?",
-        "description": [
-          "Integra variables ecográficas y cardiotocográficas para valorar el bienestar fetal intrauterino y anticipar situaciones de riesgo.",
-          "Se recomienda en embarazos de alto riesgo o ante dudas sobre el estado del bebé."
-        ]
-      },
-      {
-        "title": "¿Cómo lo realizamos?",
-        "description": [
-          "Realizamos ultrasonido para observar movimientos, tono y respiración fetal, complementando con monitoreo fetal electrónico cuando es necesario."
-        ]
+        "content": "<ul><li>Evalúa el bienestar y oxigenación del bebé.</li><li>Observa sus movimientos, respiración y tono muscular.</li><li>Mide la cantidad de líquido amniótico.</li><li>Se realiza generalmente en el tercer trimestre.</li><li>Útil para decidir si es necesario adelantar el nacimiento.</li></ul>"
       },
       {
         "title": "¿Qué evalúa este estudio?",
-        "items": [
-          "Movimientos corporales fetales.",
-          "Movimientos respiratorios y tono muscular.",
-          "Volumen de líquido amniótico.",
-          "Reactividad cardiaca mediante prueba sin estrés (cuando se integra el perfil biofísico modificado)."
-        ]
+        "layout": "full",
+        "content": "<p>Este estudio consiste en una observación por ultrasonido de los siguientes elementos:</p><ul><li>Movimientos corporales del bebé.</li><li>Movimientos respiratorios fetales.</li><li>Tono muscular del bebé.</li><li>Cantidad de líquido amniótico.</li></ul><p>Cada uno de estos parámetros recibe una puntuación (normal o anormal), y al sumarlos se obtiene un puntaje total que permite al equipo médico determinar si el bebé se encuentra en buen estado o si se requiere vigilancia más estrecha o incluso inducir el parto.</p><p>En algunos casos, este estudio se complementa con una prueba llamada registro cardiotocográfico o “non-stress test”, que evalúa la frecuencia cardíaca fetal.</p><p><strong>El Perfil Biofísico es indoloro, seguro y no invasivo</strong>, y se realiza con tecnología de alta resolución en nuestra clínica, garantizando resultados precisos y confiables para tomar decisiones informadas y seguras.</p>"
       }
     ]
   }

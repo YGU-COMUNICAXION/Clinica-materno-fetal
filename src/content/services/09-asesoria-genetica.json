@@ -1,32 +1,28 @@
 {
   "order": 9,
   "title": "Asesoría genética",
-  "description": "Estudios personalizados para evaluar riesgos genéticos y acompañar decisiones informadas.",
+  "description": "Obtiene información clave, como el cribado prenatal, ADN fetal libre o pruebas invasivas. Ayuda a decidir si es necesario realizar más estudios para confirmar o descartar alguna condición.",
   "image": "09.jpg",
   "modal": {
     "ctaLabel": "Agenda tu estudio",
+    "generalDescription": "<p>La asesoría genética apoya a los pacientes para comprender y adaptarse a las implicaciones médicas, psicológicas y familiares de las enfermedades con componente genético.</p><p>En la Clínica de Medicina Materno Fetal, ofrecemos asesoría genética con la Dra. Mónica Aguinaga Ríos para ayudarte a comprender tus riesgos, resolver tus dudas y tomar decisiones informadas, con la tranquilidad y el respaldo de un equipo multidisciplinario.</p>",
     "sections": [
       {
+        "title": "¿Quién debe tener una asesoría genética?",
+        "content": "<p>Se recomienda para toda pareja que esté planeando un embarazo o que ya se encuentre embarazada con el fin de identificar de manera temprana si existe algún riesgo de transmitir enfermedades hereditarias. Para ello, existen estudios preconcepcionales que permiten conocer si alguno de los padres es portador de alguna condición genética importante.</p>"
+      },
+      {
         "title": "¿En qué consiste?",
-        "description": [
-          "Brindamos acompañamiento profesional para interpretar antecedentes familiares, resultados de estudios y pruebas genéticas disponibles.",
-          "El objetivo es proporcionar información clara y empática que permita tomar decisiones informadas durante el embarazo."
-        ]
+        "content": "<p>Obtiene información clave sobre los estudios que evalúan la salud del bebé, como el cribado prenatal, estudios de DNA fetal libre o pruebas invasivas, y permite decidir si es necesario realizar estudios adicionales para confirmar o descartar alguna condición.</p>"
       },
       {
-        "title": "¿Cómo lo realizamos?",
-        "description": [
-          "Sesiones personalizadas con especialistas en genética clínica que analizan cada caso, recomiendan estudios complementarios y explican los posibles escenarios."
-        ]
+        "title": "¿Qué incluye la asesoría genética?",
+        "content": "<ul><li><strong>La interpretación de la historia familiar y médica:</strong> para evaluar el riesgo de aparición o recurrencia de una enfermedad genética.</li><li><strong>Educación personalizada:</strong> sobre herencia, pruebas disponibles, opciones de tratamiento, prevención y recursos disponibles.</li><li><strong>Orientación y acompañamiento:</strong> para tomar decisiones informadas y adaptarse al riesgo o diagnóstico.</li></ul>"
       },
       {
-        "title": "¿Qué evalúa este estudio?",
-        "items": [
-          "Riesgos hereditarios según antecedentes familiares.",
-          "Resultados de tamizajes prenatales y pruebas confirmatorias.",
-          "Opciones reproductivas y de seguimiento para embarazos futuros.",
-          "Necesidad de estudios específicos para los padres o el bebé."
-        ]
+        "title": "¿Cuándo referir a una pareja a una asesoría genética?",
+        "layout": "full",
+        "content": "<ul><li>Historia familiar de enfermedades genéticas o hereditarias.</li><li>Ser portador conocido de alguna condición genética.</li><li>Consanguinidad entre los padres.</li><li>Presencia de anomalías estructurales en el bebé identificadas por ultrasonido.</li><li>Resultado de alto riesgo en un tamiz prenatal (ej. para síndrome de Down u otras aneuploidías).</li><li>Exposición a medicamentos, infecciones u otras sustancias potencialmente dañinas durante el embarazo.</li><li>Antecedente de pérdidas gestacionales recurrentes.</li><li>Interés de los padres en conocer los estudios genéticos disponibles antes o durante el embarazo.</li></ul>"
       }
     ]
   }

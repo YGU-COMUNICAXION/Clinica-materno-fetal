@@ -1,32 +1,20 @@
 {
   "order": 8,
   "title": "Cirugía Fetal",
-  "description": "Procedimientos mínimamente invasivos para corregir condiciones fetales antes del nacimiento.",
+  "description": "Trata condiciones complejas del feto indicada en embarazos con riesgos graves para el bebé si no se interviene a tiempo.",
   "image": "08.jpg",
   "modal": {
     "ctaLabel": "Agenda tu estudio",
+    "generalDescription": "<p>La cirugía fetal permite intervenir dentro del útero para tratar condiciones del bebé que, sin tratamiento, pueden llevar a complicaciones severas o incluso poner en riesgo su vida.</p><p>Los procedimientos los realizamos con una estricta evaluación previa, protocolos de seguridad internacionales y acompañamiento integral durante todo el proceso. Nuestro objetivo es ofrecer alternativas reales que puedan cambiar el pronóstico de condiciones complejas, mejorando la vida del bebé incluso antes de nacer.</p>",
     "sections": [
       {
         "title": "¿En qué consiste?",
-        "description": [
-          "Ofrecemos intervenciones intrauterinas para tratar patologías fetales seleccionadas con el objetivo de mejorar el pronóstico neonatal.",
-          "Nuestro equipo multidisciplinario valora cada caso para definir la mejor estrategia terapéutica."
-        ]
+        "content": "<p>Trata condiciones complejas del feto, indicada en embarazos con riesgos graves para el bebé si no se interviene a tiempo.</p>"
       },
       {
-        "title": "¿Cómo lo realizamos?",
-        "description": [
-          "Contamos con tecnología de endoscopia fetal (fetoscopia) y procedimientos guiados por imagen en quirófano especializado, siguiendo estándares internacionales."
-        ]
-      },
-      {
-        "title": "¿Qué evalúa este estudio?",
-        "items": [
-          "Hernia diafragmática congénita.",
-          "Síndrome de transfusión feto-fetal en gestaciones gemelares.",
-          "Obstrucciones urinarias fetales.",
-          "Anemia fetal severa y otras condiciones candidatas a terapia intrauterina."
-        ]
+        "title": "¿Qué tipos de procedimiento realizan?",
+        "layout": "full",
+        "content": "<ul><li><strong>Fetoscopía para Ablación de Anastomosis Vasculares:</strong> Utilizado en el tratamiento del síndrome de transfusión feto-fetal (STFF) en embarazos gemelares monocoriales. Mediante una cámara e instrumentos muy delgados introducidos en el útero, se identifican y coagulan los vasos sanguíneos compartidos entre los gemelos para estabilizar su circulación y mejorar sus posibilidades de supervivencia.</li><li><strong>Oclusión del Cordón Umbilical por Fetoscopía o Ultrasonido:</strong> Indicada cuando uno de los fetos en un embarazo múltiple tiene un pronóstico letal y su condición pone en riesgo al otro(s) bebé(s). Se ocluye el cordón umbilical mediante técnicas seguras y precisas, mejorando el desenlace del feto sano.</li><li><strong>Cordocentesis en Isoinmunización RH:</strong> Procedimiento que permite evaluar y tratar la anemia fetal secundaria a incompatibilidad sanguínea (isoinmunización RH). A través de este abordaje, también se puede realizar una transfusión intrauterina si es necesario.</li><li><strong>Colocación de Derivación Tóraco-Amniótica:</strong> Se coloca un pequeño catéter entre el tórax del feto y el líquido amniótico para drenar acumulaciones anómalas, como el derrame pleural fetal, permitiendo el desarrollo adecuado de los pulmones.</li><li><strong>Colocación de Derivación Vésico-Amniótica:</strong> Se emplea cuando existe una obstrucción urinaria en el feto. Este procedimiento permite drenar la orina fetal al líquido amniótico y preservar la función renal.</li><li><strong>Colocación de Balón Intratraqueal para Hernia Diafragmática Congénita (FETO):</strong> Este innovador procedimiento consiste en colocar un balón temporal en la tráquea del feto para estimular el crecimiento pulmonar en casos severos de hernia diafragmática. El balón se retira antes del nacimiento.</li></ul><p>En la Clínica de Medicina Materno Fetal contamos con un equipo multidisciplinario y la infraestructura necesaria para realizar estos procedimientos altamente especializados.</p><p>Nuestros procedimientos son llevados a cabo por cirujanos fetales con amplia experiencia: el Dr. David Basurto Díaz y el Dr. Gabriel Edgar Villagómez Martínez, reconocidos por su entrenamiento en centros internacionales y por su liderazgo en el desarrollo de la cirugía fetal en México.</p>"
       }
     ]
   }
