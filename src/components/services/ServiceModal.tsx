@@ -19,6 +19,8 @@ export default function ServiceModal({
   const { title, subtitle, modal } = service;
   const { ctaLabel, generalDescription, sections } = modal;
 
+  const renderHtml = (html: string) => ({ __html: html });
+
   const hasHowWeDoItSection = sections.some((section) =>
     section.title.toLowerCase().includes("cómo lo realizamos")
   );
@@ -44,15 +46,22 @@ export default function ServiceModal({
       }
     >
       <div className="flex flex-col gap-8 py-8">
-        {generalDescription ? (
-          <div
-            className="text-sm leading-relaxed text-primary-grey-800 md:text-base [&>p]:mb-4 [&>p:last-child]:mb-0 [&>ul]:mb-4 [&>ul]:list-disc [&>ul]:pl-6 [&>ul>li]:marker:text-primary-blue"
-            dangerouslySetInnerHTML={{ __html: generalDescription }}
-          />
+        {generalDescription?.trim() ? (
+          <section className="space-y-4">
+            <h3 className="text-lg font-semibold text-primary-blue-800">
+              Descripción general
+            </h3>
+            <div
+              className="text-sm leading-relaxed text-primary-grey-800 md:text-base [&>*]:mb-4 [&>*:last-child]:mb-0 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-3 [&_li]:marker:text-primary-blue"
+              dangerouslySetInnerHTML={renderHtml(generalDescription)}
+              suppressHydrationWarning
+            />
+          </section>
         ) : null}
 
         <div className="grid gap-8 md:grid-cols-2">
           {sections.map((section) => {
+            const htmlContent = section.content?.trim();
             const isWhatItConsistsSection = section.title
               .toLowerCase()
               .includes("en qué consiste");
@@ -68,10 +77,11 @@ export default function ServiceModal({
                 <h3 className="text-lg font-semibold text-primary-blue-800">
                   {section.title}
                 </h3>
-                {section.content ? (
+                {htmlContent ? (
                   <div
-                    className="space-y-4 text-sm leading-relaxed text-primary-grey-800 md:text-base [&>p]:leading-relaxed [&>ul]:space-y-3 [&>ul]:pl-6 [&>ul]:list-disc [&>ul>li]:marker:text-primary-blue"
-                    dangerouslySetInnerHTML={{ __html: section.content }}
+                    className="space-y-4 text-sm leading-relaxed text-primary-grey-800 md:text-base [&>*]:leading-relaxed [&_ul]:space-y-3 [&_ul]:pl-6 [&_ul]:list-disc [&_li]:marker:text-primary-blue"
+                    dangerouslySetInnerHTML={renderHtml(htmlContent)}
+                    suppressHydrationWarning
                   />
                 ) : (
                   <>
