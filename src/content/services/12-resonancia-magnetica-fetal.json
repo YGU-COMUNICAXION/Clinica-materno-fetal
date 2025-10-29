@@ -2,7 +2,7 @@
   "order": 12,
   "title": "Resonancia Magnética Fetal",
   "description": "Permite estudiar el cerebro, pulmones y otros órganos del bebé con gran precisión. Es útil cuando existen malformaciones complejas o dudosas en el ultrasonido.",
-  "image": "12.jpg",
+  "image": "04.jpg",
   "modal": {
     "ctaLabel": "Agendar cita",
     "generalDescription": "<p>La resonancia magnética fetal (RM fetal) es un estudio de imagen avanzada que permite observar con gran detalle los órganos del bebé, especialmente el cerebro, pulmones, abdomen y columna vertebral.</p><p>No sustituye al ultrasonido, sino que lo complementa cuando se necesita una visión más precisa o cuando hay dudas diagnósticas.</p>",
@@ -21,6 +21,7 @@
       },
       {
         "title": "Acompañamiento en nuestra clínica",
+        "layout": "full",
         "content": "<p>En la Clínica de Medicina Materno Fetal trabajamos en coordinación con el departamento de imagen de alta especialidad del Hospital Ángeles Lomas para indicarte el estudio cuando sea necesario y asegurar una adecuada integración de los hallazgos en tu seguimiento médico.</p>"
       }
     ]

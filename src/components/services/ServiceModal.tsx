@@ -45,12 +45,9 @@ export default function ServiceModal({
         </div>
       }
     >
-      <div className="flex flex-col gap-8 py-8">
+      <div className="flex flex-col gap-8 py-2">
         {generalDescription?.trim() ? (
-          <section className="space-y-4">
-            <h3 className="text-lg font-semibold text-primary-blue-800">
-              Descripción general
-            </h3>
+          <section className="">
             <div
               className="text-sm leading-relaxed text-primary-grey-800 md:text-base [&>*]:mb-4 [&>*:last-child]:mb-0 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-3 [&_li]:marker:text-primary-blue"
               dangerouslySetInnerHTML={renderHtml(generalDescription)}

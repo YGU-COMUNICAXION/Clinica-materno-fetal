@@ -2,7 +2,7 @@
   "order": 5,
   "title": "Ultrasonido 3D, 4D y 4D Live",
   "description": "Permite ver al bebé con gran detalle y en movimiento: sus gestos y facciones.",
-  "image": "05.jpg",
+  "image": "11.jpg",
   "modal": {
     "ctaLabel": "Agenda tu estudio",
     "generalDescription": "<p>Los ultrasonidos en 3D, 4D y 4D Live son estudios que utilizan tecnología avanzada para ofrecer imágenes detalladas del bebé en el útero.</p><p>A diferencia del ultrasonido 2D tradicional, que muestra imágenes planas, el ultrasonido 3D proporciona imágenes tridimensionales, permitiendo ver las facciones del bebé con mayor claridad.</p><p>El ultrasonido 4D añade la dimensión del tiempo, mostrando al bebé en movimiento en tiempo real, mientras que el 4D Live ofrece una experiencia aún más fluida y detallada.</p>",
@@ -13,6 +13,7 @@
       },
       {
         "title": "Estos estudios son ideales para:",
+        "layout": "full",
         "content": "<ul><li>Observar las expresiones y movimientos del bebé, como bostezos o sonrisas.</li><li>Fortalecer el vínculo emocional entre los padres y el bebé al ver imágenes realistas.</li><li>Complementar la evaluación médica del desarrollo fetal.</li></ul><p>En la Clínica de Medicina Materno Fetal, contamos con equipos de última generación y especialistas en medicina materno fetal para ofrecerte una experiencia única y segura al conocer a tu bebé antes de su nacimiento.</p>"
       }
     ]

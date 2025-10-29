@@ -56,10 +56,6 @@ const services: Service[] = (await getCollection("services"))
     </section>
   </HeroBanner>
   <AboutStrip />
-  <DoctorsSection
-    title="Conozca nuestro equipo de especialistas e interconsultantes"
-    description="Trabajamos bajo un enfoque multidisciplinario que nos permite diagnosticar, tratar y ofrecer cuidado continuo a lo largo del embarazo de forma más precisa y segura."
-  />
   <section class="py-16 lg:py-24 container mx-auto">
     <div class="space-y-12 lg:space-y-16 mx-auto max-w-7xl">
       <div
@@ -80,5 +76,9 @@ const services: Service[] = (await getCollection("services"))
       <ServicesGrid services={services} client:load />
     </div>
   </section>
+  <DoctorsSection
+    title="Conozca nuestro equipo de especialistas e interconsultantes"
+    description="Trabajamos bajo un enfoque multidisciplinario que nos permite diagnosticar, tratar y ofrecer cuidado continuo a lo largo del embarazo de forma más precisa y segura."
+  />
   <CtaSection />
 </Layout>
