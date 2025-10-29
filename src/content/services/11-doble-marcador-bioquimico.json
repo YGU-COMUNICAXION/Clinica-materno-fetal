@@ -1,32 +1,23 @@
 {
   "order": 11,
-  "title": "Doble Marcador Bioquímico (screening del primer trimestre)",
-  "description": "Cuantificamos marcadores bioquímicos maternos para estimar riesgos cromosómicos.",
+  "title": "Doble Marcador Bioquímico (Dúotest)",
+  "description": "Evalúa con precisión el riesgo de que el bebé presente Síndrome de Down, Síndrome de Edwards o Síndrome de Patau.",
   "image": "11.jpg",
   "modal": {
-    "ctaLabel": "Agenda tu estudio",
+    "ctaLabel": "Agendar cita",
+    "generalDescription": "<p>El Doble Marcador Bioquímico, también conocido como Dúotest, es un análisis de sangre materna que forma parte del Tamiz Combinado del Primer Trimestre.</p><p>Se realiza entre las semanas 11 y 14 de embarazo, al mismo tiempo que el ultrasonido del primer trimestre.</p>",
     "sections": [
       {
         "title": "¿En qué consiste?",
-        "description": [
-          "Se cuantifican las hormonas PAPP-A y beta hCG libre en sangre materna para combinarlas con el ultrasonido 11-14.",
-          "Con esta información se obtiene un riesgo individualizado de alteraciones cromosómicas."
-        ]
+        "content": "<p>Evalúa el riesgo de alteraciones cromosómicas en el bebé, principalmente:</p>\n<ul>\n  <li>Trisomía 21 (Síndrome de Down)</li>\n  <li>Trisomía 18 (Síndrome de Edwards)</li>\n  <li>Trisomía 13 (Síndrome de Patau)</li>\n</ul>\n<p>Este estudio analiza dos hormonas producidas por la placenta:</p>\n<ul>\n  <li>Proteína plasmática asociada al embarazo (PAPP-A)</li>\n  <li>Fracción beta de la hormona gonadotropina coriónica humana (β-hCG)</li>\n</ul>"
       },
       {
-        "title": "¿Cómo lo realizamos?",
-        "description": [
-          "Tomamos una muestra de sangre materna y la analizamos en laboratorios certificados que siguen los lineamientos de la FMF."
-        ]
+        "title": "¿Cómo se interpretan los resultados?",
+        "content": "<p>Los valores obtenidos se transforman en múltiplos de la mediana (MoM) y se integran con los hallazgos ecográficos, principalmente la translucencia nucal, para generar una estimación personalizada del riesgo de alteraciones cromosómicas.</p><p>El Dúotest no es un diagnóstico, sino una herramienta de tamizaje que identifica embarazos con riesgo aumentado y orienta la necesidad de estudios adicionales, como el ADN fetal en sangre materna o pruebas invasivas confirmatorias.</p>"
       },
       {
-        "title": "¿Qué evalúa este estudio?",
-        "items": [
-          "Riesgo de Síndrome de Down (trisomía 21).",
-          "Riesgo de trisomía 18 y 13.",
-          "Indicadores bioquímicos de alteraciones placentarias relacionadas con preeclampsia.",
-          "Base para decidir pruebas complementarias o diagnósticas."
-        ]
+        "title": "Acompañamiento en nuestra clínica",
+        "content": "<p>En la Clínica de Medicina Materno Fetal, este estudio se ofrece de manera integral, asegurando que cada paciente reciba asesoramiento personalizado y una interpretación detallada de los resultados.</p>"
       }
     ]
   }
