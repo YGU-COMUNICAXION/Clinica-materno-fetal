@@ -2,20 +2,20 @@
   "order": 2,
   "title": "Ultrasonido 11-14 y Estudio Combinado del Primer Trimestre",
   "subtitle": "Semanas 11 a 14 de gestación",
-  "description": "Evalúa la anatomía fetal, calcula el riesgo de síndrome de Down y otras aneuploidías y predice el riesgo de preeclampsia.",
+  "description": "Se realiza entre las semanas 11 y 14 para confirmar la edad gestacional, evaluar la anatomía fetal y detectar marcadores de riesgo.",
   "image": "02.jpg",
   "modal": {
     "ctaLabel": "Agendar cita",
-    "generalDescription": "<p>Se realiza entre las semanas 11 y 14 de embarazo y es uno de los estudios más importantes del primer trimestre.</p><p>No solo permite confirmar la edad gestacional y el número de fetos, sino que también evalúa de manera temprana la anatomía fetal y detecta condiciones que pueden indicar mayor riesgo de ciertas alteraciones.</p>",
+    "generalDescription": "Se realiza entre las semanas 11 y 14 de embarazo, es uno de los estudios más importantes del primer trimestre.<br><br>No solo permite confirmar la edad gestacional y el número de fetos, sino que también evalúa de manera temprana la anatomía fetal y detecta algunos marcadores que pueden indicar mayor riesgo de ciertas condiciones.",
     "sections": [
       {
         "title": "¿En qué consiste?",
-        "content": "<ul>\n  <li>Evalúa la anatomía fetal de forma temprana.</li>\n  <li>Permite medir la translucencia nucal y otros marcadores importantes.</li>\n  <li>Calcula el riesgo de síndrome de Down y otras aneuploidías.</li>\n  <li>Ayuda a predecir el riesgo de preeclampsia mediante la medición del Doppler uterino.</li>\n  <li>Determina con precisión la edad gestacional y el crecimiento fetal temprano.</li>\n</ul>"
+        "content": "<ul>\n  <li>Evalúa la anatomía fetal de forma temprana.</li>\n  <li>Permite medir la translucencia nucal y otros marcadores importantes.</li>\n  <li>Sirve para calcular el riesgo de síndrome de Down y otras aneuploidías.</li>\n  <li>Puede combinarse con análisis de sangre materna para un estudio más completo.</li>\n  <li>Ayuda a predecir el riesgo de preeclampsia y restricción del crecimiento fetal temprano.</li>\n</ul>"
       },
       {
         "title": "¿Qué evalúa este estudio?",
         "layout": "full",
-        "content": "<p>Uno de los marcadores más relevantes es la translucencia nucal, que es la medición de un pequeño acúmulo de líquido en la parte posterior del cuello fetal. El aumento de esta medida puede estar relacionado con malformaciones estructurales o cromosómicas como el síndrome de Down, síndrome de Edwards y síndrome de Patau, entre otros.</p><p>Asimismo, estima el riesgo individual de preeclampsia y de restricción del crecimiento fetal, dos afecciones que pueden impactar de manera importante la salud materna y fetal. Estos riesgos se calculan con un software especializado con sustento científico internacional avalado por la FMF.</p><p>Esta evaluación se complementa con la valoración de la anatomía fetal, la medición de marcadores bioquímicos (cuando están disponibles) y el Doppler de arterias uterinas para brindar un diagnóstico integral del estado del embarazo.</p><p>En caso de encontrar alguna variación, se ofrece consejería con enfoque médico y humano para orientar a los padres a tomar la mejor decisión con información clara y confiable.</p><p>Este estudio se realiza idealmente entre las semanas 11 y 14 en conjunto con el Estudio Combinado del Primer Trimestre. Este análisis PRP-U y el factor individual de cada paciente logran detectar alguna alteración cromosómica con una sensibilidad superior al 90%.</p>"
+        "content": "Uno de los marcadores más relevantes es la translucencia nucal, que es la medición de un pequeño espacio en la parte posterior del cuello del bebé. Un aumento en esta medición puede estar relacionado con alteraciones cromosómicas como el síndrome de Down, síndrome de Edwards y síndrome de Patau, entre otras.<br><br>Asimismo, estima de forma temprana el riesgo de preeclampsia y también de restricción del crecimiento fetal, dos complicaciones graves del embarazo. Identificar estos riesgos en el primer trimestre permite iniciar estrategias preventivas personalizadas para mejorar el pronóstico del embarazo.<br><br>Este estudio debe ser realizado por médicos certificados y con tecnología especializada, como la que usamos en nuestra clínica, para asegurar resultados confiables y precisos.<br>Cuando se combina este ultrasonido con una muestra de sangre materna (que mide dos hormonas: la fracción libre de la beta-hCG y la proteína PAPP-A), se realiza lo que se conoce como el Estudio Combinado del Primer Trimestre. Este análisis permite calcular el riesgo individualizado de que el bebé tenga alguna alteración cromosómica con una sensibilidad superior al 90%."
       }
     ]
   }
