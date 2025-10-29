@@ -1,34 +1,25 @@
 {
   "order": 3,
-  "title": "Ultrasonido Estructural o Morfológico del Segundo Trimestre",
+  "title": "Ultrasonido Estructural o Morfológico",
   "subtitle": "Semanas 18-24",
-  "description": "Analizamos detalladamente la anatomía fetal, placenta, cordón y líquido amniótico.",
+  "description": "Revisa los órganos y estructuras del bebé, la placenta, el cordón umbilical, el cuello uterino y detecta malformaciones congénitas.",
   "image": "03.jpg",
   "modal": {
     "ctaLabel": "Agenda tu estudio",
+    "generalDescription": "<p>Este estudio se realiza generalmente entre las semanas 18 y 24 de embarazo y es uno de los ultrasonidos más importantes del embarazo. Su objetivo principal es evaluar en detalle la anatomía del bebé, órgano por órgano, para identificar posibles malformaciones congénitas.</p>",
     "sections": [
       {
-        "title": "¿En qué consiste?",
-        "description": [
-          "Es una evaluación sistemática de todos los órganos y sistemas fetales para identificar oportunamente malformaciones congénitas.",
-          "Revisamos la placenta, el cordón umbilical y el líquido amniótico para garantizar condiciones óptimas de desarrollo."
-        ]
+        "title": "¿Qué revisa este estudio?",
+        "content": "<ul><li>El cerebro y la cara.</li><li>La columna vertebral.</li><li>El corazón (incluyendo el estudio detallado de sus cavidades y flujos).</li><li>El abdomen y los riñones.</li><li>Las extremidades.</li><li>El sexo fetal, si los padres desean conocerlo.</li></ul>"
       },
       {
-        "title": "¿Cómo lo realizamos?",
-        "description": [
-          "Seguimos protocolos internacionales de medicina materno-fetal apoyados en tecnología de ultrasonido de alta definición con reconstrucciones multiplanares cuando es necesario."
-        ]
+        "title": "¿En qué consiste?",
+        "content": "<ul><li>Estudia detalladamente los órganos y estructuras del bebé.</li><li>Detecta malformaciones congénitas.</li><li>Evalúa el crecimiento fetal y la cantidad de líquido amniótico.</li><li>Se revisa la placenta, el cordón umbilical y el cuello uterino.</li></ul>"
       },
       {
         "title": "¿Qué evalúa este estudio?",
-        "items": [
-          "Cerebro, columna, cara y cuello fetales.",
-          "Corazón fetal con cortes estándar de cribado.",
-          "Tórax, abdomen, sistema digestivo y genitourinario.",
-          "Extremidades, manos y pies.",
-          "Implantación placentaria, cordón umbilical y volumen de líquido amniótico."
-        ]
+        "layout": "full",
+        "content": "<ul><li>El crecimiento del bebé mediante fetometría.</li><li>La cantidad de líquido amniótico.</li><li>La ubicación y características de la placenta.</li><li>El cordón umbilical (inserción y número de vasos).</li><li>La longitud del cuello uterino, lo cual ayuda a valorar el riesgo de parto prematuro.</li></ul><p>Este estudio requiere un equipo de alta resolución y debe ser realizado por especialistas en medicina materno fetal, ya que una evaluación detallada y precisa puede tener un gran impacto en la atención del embarazo y la toma de decisiones médicas.</p>"
       }
     ]
   }
