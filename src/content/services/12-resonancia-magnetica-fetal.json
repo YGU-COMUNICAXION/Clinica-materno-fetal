@@ -1,32 +1,27 @@
 {
   "order": 12,
   "title": "Resonancia Magnética Fetal",
-  "description": "Imagen avanzada para evaluar la anatomía fetal cuando el ultrasonido no es concluyente.",
+  "description": "Permite estudiar el cerebro, pulmones y otros órganos del bebé con gran precisión. Es útil cuando existen malformaciones complejas o dudosas en el ultrasonido.",
   "image": "12.jpg",
   "modal": {
-    "ctaLabel": "Agenda tu estudio",
+    "ctaLabel": "Agendar cita",
+    "generalDescription": "<p>La resonancia magnética fetal (RM fetal) es un estudio de imagen avanzada que permite observar con gran detalle los órganos del bebé, especialmente el cerebro, pulmones, abdomen y columna vertebral.</p><p>No sustituye al ultrasonido, sino que lo complementa cuando se necesita una visión más precisa o cuando hay dudas diagnósticas.</p>",
     "sections": [
       {
         "title": "¿En qué consiste?",
-        "description": [
-          "La resonancia magnética complementa al ultrasonido al ofrecer una visión detallada de órganos y estructuras fetales complejas.",
-          "Se recomienda cuando existen hallazgos dudosos o se requiere planificar el manejo neonatal con mayor precisión."
-        ]
+        "content": "<p>Complementa al ultrasonido cuando se requiere una evaluación más detallada.</p>\n<ul>\n  <li>Permite estudiar el cerebro, pulmones y otros órganos del bebé con gran precisión.</li>\n  <li>Es útil cuando existen malformaciones complejas o dudosas en el ultrasonido.</li>\n  <li>No utiliza radiación, es segura para la madre y el bebé.</li>\n  <li>Se realiza por radiólogos expertos en imagen fetal.</li>\n</ul>"
       },
       {
-        "title": "¿Cómo lo realizamos?",
-        "description": [
-          "Trabajamos con centros especializados en imagen fetal que utilizan equipos de alto campo y protocolos seguros para el embarazo."
-        ]
+        "title": "¿Cuándo se realiza?",
+        "content": "<p>Se indica, por ejemplo, cuando se detectan alteraciones neurológicas en el ultrasonido, cuando se sospechan malformaciones complejas o cuando es necesario planear mejor el seguimiento o el nacimiento del bebé.</p><p>También es útil en embarazos múltiples o cuando hay limitaciones para obtener una buena imagen con ultrasonido, como en casos de poco líquido amniótico o posición desfavorable del bebé.</p>"
       },
       {
-        "title": "¿Qué evalúa este estudio?",
-        "items": [
-          "Cerebro y sistema nervioso central con detalle anatómico superior.",
-          "Tórax, abdomen y estructuras musculoesqueléticas cuando el ultrasonido tiene limitaciones.",
-          "Extensión de malformaciones complejas para planificar el tratamiento.",
-          "Condiciones placentarias y de cordón umbilical específicas."
-        ]
+        "title": "¿Es un estudio seguro?",
+        "content": "<p>La RM fetal no utiliza radiación ionizante, por lo que es completamente segura para el feto.</p><p>Se realiza generalmente a partir de la semana 20 de gestación y es llevada a cabo por un equipo especializado en imagen prenatal con interpretación por radiólogos expertos en patología fetal.</p>"
+      },
+      {
+        "title": "Acompañamiento en nuestra clínica",
+        "content": "<p>En la Clínica de Medicina Materno Fetal trabajamos en coordinación con el departamento de imagen de alta especialidad del Hospital Ángeles Lomas para indicarte el estudio cuando sea necesario y asegurar una adecuada integración de los hallazgos en tu seguimiento médico.</p>"
       }
     ]
   }

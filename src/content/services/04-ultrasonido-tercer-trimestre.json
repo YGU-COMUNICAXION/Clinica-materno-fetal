@@ -1,33 +1,21 @@
 {
   "order": 4,
   "title": "Ultrasonido del Tercer Trimestre",
-  "subtitle": "Semanas 27-41",
-  "description": "Monitorizamos el crecimiento fetal, bienestar, posición y las condiciones placentarias.",
+  "subtitle": "Semanas 28-41",
+  "description": "Evalúa el crecimiento, bienestar, posición fetal y líquido amniótico para planear el nacimiento y detectar complicaciones.",
   "image": "04.jpg",
   "modal": {
     "ctaLabel": "Agenda tu estudio",
+    "generalDescription": "<p>Este estudio se realiza habitualmente después de la semana 28 de embarazo y su principal objetivo es evaluar el crecimiento fetal y el bienestar del bebé en una etapa avanzada del embarazo.</p>",
     "sections": [
       {
         "title": "¿En qué consiste?",
-        "description": [
-          "Revisamos el crecimiento y bienestar fetal durante el último trimestre del embarazo, confirmando que el bebé mantiene un desarrollo adecuado.",
-          "Se valora la posición fetal, cantidad de líquido amniótico y la localización placentaria previo al nacimiento."
-        ]
-      },
-      {
-        "title": "¿Cómo lo realizamos?",
-        "description": [
-          "Mediante ultrasonido obstétrico abdominal complementado con Doppler cuando hay indicación médica, utilizando curvas de crecimiento personalizadas."
-        ]
+        "content": "<ul><li>Evalúa el crecimiento y bienestar del bebé.</li><li>Se revisa la posición fetal y el líquido amniótico.</li><li>Se valora la placenta y el cordón umbilical.</li><li>Puede incluir estudio Doppler para conocer el estado de la circulación fetal.</li><li>Es útil para planear el nacimiento y detectar posibles complicaciones.</li></ul>"
       },
       {
         "title": "¿Qué evalúa este estudio?",
-        "items": [
-          "Peso fetal estimado y percentiles de crecimiento.",
-          "Movimientos fetales, tono y respiración según edad gestacional.",
-          "Volumen de líquido amniótico y características placentarias.",
-          "Posición fetal y bienestar general previo al parto."
-        ]
+        "layout": "full",
+        "content": "<ul><li>Peso estimado del bebé y su posición dentro del útero (cefálica, pélvica, transversa).</li><li>Cantidad de líquido amniótico, lo cual es un indicador importante del bienestar fetal.</li><li>Estado y localización de la placenta.</li><li>Cordón umbilical, incluyendo su inserción y el número de vasos.</li></ul><p>En muchos casos, especialmente si hay factores de riesgo como hipertensión, diabetes, antecedentes de crecimiento fetal restringido o embarazos múltiples, se incluye un estudio Doppler, que evalúa la circulación del bebé y la placenta. Esto nos permite detectar de forma temprana signos de restricción del crecimiento fetal.</p><p>Este ultrasonido también es muy útil para ayudar a planear el tipo de nacimiento y la vigilancia más adecuada durante las últimas semanas del embarazo.</p><p>En la Clínica de Medicina Materno Fetal realizamos este estudio con equipos de alta tecnología y bajo protocolos estandarizados, asegurando una atención personalizada y basada en evidencia científica.</p>"
       }
     ]
   }

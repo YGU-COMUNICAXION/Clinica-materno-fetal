@@ -1,34 +1,25 @@
 {
   "order": 1,
-  "title": "Ultrasonido del Primer Trimestre",
-  "subtitle": "Semanas 6-10",
-  "description": "Confirmamos la ubicación e implantación adecuada del embrión y su desarrollo inicial.",
+  "title": "Ultrasonido del Primer Trimestre Temprano",
+  "subtitle": "(Semana 6 a 10)",
+  "description": "Confirma la presencia de embarazo, determina si es único o múltiple y estima la edad gestacional y fecha de parto.",
   "image": "01.jpg",
   "modal": {
-    "ctaLabel": "Agenda tu estudio",
+    "ctaLabel": "Agendar cita",
+    "generalDescription": "<p>Se realiza habitualmente entre las semanas 6 y 10 de embarazo y es fundamental para establecer los primeros parámetros del embarazo.</p><p>Nos ayuda a confirmar la presencia y viabilidad del embarazo, así como estimar con precisión la edad gestacional.</p>",
     "sections": [
       {
         "title": "¿En qué consiste?",
-        "description": [
-          "Corroboramos que el embarazo se encuentre dentro del útero, determinamos el número de embriones y verificamos su vitalidad mediante la detección del latido cardiaco.",
-          "Calculamos la edad gestacional y evaluamos la implantación inicial para descartar complicaciones tempranas."
-        ]
+        "content": "<ul>\n  <li>Confirma la presencia de embarazo intrauterino.</li>\n  <li>Determina si el embarazo es único o múltiple.</li>\n  <li>Estima la edad gestacional y la fecha probable de parto.</li>\n</ul>"
       },
       {
         "title": "¿Cómo lo realizamos?",
-        "description": [
-          "Empleamos ultrasonido transvaginal de alta resolución que permite visualizar la gestación en etapas tempranas con gran precisión, ofreciendo una exploración detallada del saco gestacional, saco vitelino y embrión."
-        ]
+        "content": "<p>Exploración pélvica por vía transabdominal y transvaginal, que permite evaluar la gestación y las características individuales de cada paciente.</p><p>Imágenes detalladas con tecnología de alta resolución para un diagnóstico preciso, con monitoreo adecuado de los parámetros fetales, uterinos y anexiales.</p><p>Se complementa con un análisis personalizado según las necesidades de cada paciente.</p>"
       },
       {
         "title": "¿Qué evalúa este estudio?",
-        "items": [
-          "Ubicación del embarazo (intrauterino o ectópico).",
-          "Número de embriones y presencia de embarazo múltiple.",
-          "Longitud céfalo-rabadilla (CRL) para datar la gestación.",
-          "Frecuencia cardiaca embrionaria y vitalidad.",
-          "Estado del útero, anexos y presencia de hematomas o complicaciones tempranas."
-        ]
+        "layout": "full",
+        "content": "<ul>\n  <li>Confirmación del embarazo y la identificación del latido cardiaco embrionario, lo que indica la viabilidad del embrión.</li>\n  <li>Ubicación del saco gestacional dentro del útero y las condiciones de implantación.</li>\n  <li>Valoración de la anatomía uterina y anexial para descartar anomalías como la implantación baja o el sangrado subcoriónico, así como la longitud cráneo-caudal (LCC), lo que permite calcular la edad gestacional.</li>\n  <li>Detección de marcadores de implantación embrionaria y de embarazos múltiples.</li>\n  <li>Evaluación de la frecuencia cardiaca y movimientos embrionarios.</li>\n  <li>Estimación de la longitud del embrión e indicadores de un desarrollo embrionario óptimo, entre otros factores.</li>\n</ul>"
       }
     ]
   }

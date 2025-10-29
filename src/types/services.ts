@@ -2,12 +2,15 @@ import type { ImageMetadata } from 'astro';
 
 export type ServiceModalSection = {
   title: string;
+  layout?: "half" | "full";
+  content?: string;
   description?: string[];
   items?: string[];
 };
 
 export type ServiceModalData = {
   ctaLabel: string;
+  generalDescription?: string;
   sections: ServiceModalSection[];
 };
 
