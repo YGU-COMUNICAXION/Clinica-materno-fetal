@@ -1,5 +1,5 @@
 ---
-import DoctorsGallery from "@components/doctors/DoctorsGallery";
+import DoctorsGallery from "@components/doctors/DoctorsGallery.astro";
 
 interface DoctorsSectionProps {
   title: string;
@@ -20,6 +20,6 @@ const { title, description } = Astro.props as DoctorsSectionProps;
       </p>
     </div>
 
-    <DoctorsGallery client:idle />
+    <DoctorsGallery />
   </div>
 </section>

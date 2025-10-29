@@ -16,7 +16,7 @@ export default function DoctorCard({ doctor, onSelect }: DoctorCardProps) {
 
   const content = (
     <>
-      <div className="relative flex h-32 w-32 items-center justify-center overflow-hidden rounded-full md:h-36 md:w-36">
+      <div className="relative flex size-[240px] items-center justify-center overflow-hidden rounded-full">
         <img
           src={image.src}
           alt={name}
