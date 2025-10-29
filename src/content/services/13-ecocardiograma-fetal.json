@@ -1,32 +1,24 @@
 {
   "order": 13,
-  "title": "Ecocardiograma Fetal (Cardiología y Neurosonografía)",
-  "description": "Evaluamos detalladamente la estructura y función del corazón y el cerebro fetal.",
+  "title": "Ecocardiograma Fetal (básico y avanzado)",
+  "description": "Detecta malformaciones cardíacas congénitas antes del nacimiento. Se recomienda en embarazos de alto riesgo o con antecedentes familiares.",
   "image": "13.jpg",
   "modal": {
-    "ctaLabel": "Agenda tu estudio",
+    "ctaLabel": "Agendar cita",
+    "generalDescription": "<p>El ecocardiograma fetal es un estudio especializado que permite observar con gran detalle la estructura y el funcionamiento del corazón del bebé mientras está en el útero. Se realiza mediante ultrasonido de alta resolución, sin necesidad de radiación ni ningún procedimiento invasivo.</p><p>Este estudio suele realizarse entre las semanas 18 y 24 de gestación, aunque puede indicarse en otras etapas del embarazo si hay alguna sospecha clínica.</p>",
     "sections": [
       {
         "title": "¿En qué consiste?",
-        "description": [
-          "Realizamos una exploración especializada del corazón fetal para descartar cardiopatías congénitas y evaluar el sistema nervioso central.",
-          "Forma parte del seguimiento de embarazos de alto riesgo o con antecedentes familiares relevantes."
-        ]
+        "content": "<ul>\n  <li>Evalúa el corazón del bebé de forma detallada.</li>\n  <li>Detecta malformaciones cardíacas congénitas antes del nacimiento.</li>\n  <li>Se recomienda en embarazos de alto riesgo o con antecedentes familiares.</li>\n  <li>Realizado por médicos expertos con entrenamiento específico en cardiología fetal.</li>\n  <li>Seguro y no invasivo para la madre y el bebé.</li>\n</ul>"
       },
       {
-        "title": "¿Cómo lo realizamos?",
-        "description": [
-          "Aplicamos protocolos avanzados de cardiología fetal con Doppler color, espectral y técnicas de neurosonografía transvaginal cuando está indicado."
-        ]
+        "title": "¿Cuáles son los niveles del estudio?",
+        "layout": "full",
+        "content": "<ul>\n  <li><strong>Ecocardiograma Fetal Básico:</strong> Incluye una evaluación estructural general del corazón, sus cavidades, grandes vasos, ritmo cardíaco y flujo de sangre a través de las válvulas. Es útil como tamizaje inicial en embarazos de riesgo moderado.</li>\n  <li><strong>Ecocardiograma Fetal Avanzado:</strong> Se realiza cuando hay sospecha de cardiopatía congénita o en embarazos con factores de alto riesgo. Incluye una evaluación segmentaria más profunda con Doppler color y espectral para valorar el flujo y la funcionalidad en detalle.</li>\n</ul>"
       },
       {
-        "title": "¿Qué evalúa este estudio?",
-        "items": [
-          "Anatomía cardiaca segmentaria y conexiones vasculares.",
-          "Función cardiaca y flujo sanguíneo en cavidades y grandes vasos.",
-          "Estructuras cerebrales centrales y periféricas.",
-          "Riesgo de complicaciones neurológicas asociadas a cardiopatías."
-        ]
+        "title": "Atención especializada en nuestra clínica",
+        "content": "<p>En la Clínica de Medicina Materno Fetal, los ecocardiogramas fetales son realizados por médicos especialistas con formación en cardiología fetal, lo que permite una interpretación precisa y confiable. Contamos con equipos de ultrasonido de alta gama y trabajamos en conjunto con cardiólogos pediátricos si se requiere seguimiento posnatal.</p><p>Detectar una cardiopatía congénita a tiempo permite planear adecuadamente el nacimiento y asegurar que el bebé reciba la atención especializada que necesita desde el primer momento.</p>"
       }
     ]
   }
