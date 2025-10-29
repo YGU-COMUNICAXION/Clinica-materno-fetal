@@ -5,6 +5,7 @@ import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import HeroBanner from "@components/HeroBanner.astro";
 import AboutStrip from "@components/pages/home/AboutStrip.astro";
+import DoctorsSection from "@components/doctors/DoctorsSection.astro";
 import CtaSection from "@components/pages/home/CtaSection.astro";
 import ServicesGrid from "@components/services/ServicesGrid.tsx";
 import type { Service } from "../types/services";
@@ -55,6 +56,10 @@ const services: Service[] = (await getCollection("services"))
     </section>
   </HeroBanner>
   <AboutStrip />
+  <DoctorsSection
+    title="Conozca nuestro equipo de especialistas e interconsultantes"
+    description="Trabajamos bajo un enfoque multidisciplinario que nos permite diagnosticar, tratar y ofrecer cuidado continuo a lo largo del embarazo de forma más precisa y segura."
+  />
   <section class="py-16 lg:py-24 container mx-auto">
     <div class="space-y-12 lg:space-y-16 mx-auto max-w-7xl">
       <div
