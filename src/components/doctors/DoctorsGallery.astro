@@ -3,7 +3,7 @@ import doctors from "../../data/doctors";
 import DoctorCard from "./DoctorCard";
 ---
 
-<div class="flex flex-wrap justify-center gap-x-12 gap-y-14">
+<div class="flex flex-wrap justify-center gap-4 lg:gap-x-8 lg:gap-y-12">
   {doctors.map((doctor) => (
     <DoctorCard doctor={doctor} key={doctor.id} />
   ))}
