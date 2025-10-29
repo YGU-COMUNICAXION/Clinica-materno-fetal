@@ -1,32 +1,20 @@
 {
   "order": 6,
-  "title": "Estudio Doppler de Flujo Sanguíneo",
-  "description": "Evaluamos la circulación sanguínea materno-fetal para diagnosticar restricción de crecimiento.",
+  "title": "Estudio Doppler de Bienestar Fetal",
+  "description": "Es útil en embarazos de alto riesgo (hipertensión, diabetes, etc.) y permite tomar decisiones sobre el momento ideal del nacimiento.",
   "image": "06.jpg",
   "modal": {
     "ctaLabel": "Agenda tu estudio",
+    "generalDescription": "<p>El ultrasonido Doppler es un estudio que se utiliza para evaluar el flujo sanguíneo en diferentes vasos del bebé, la placenta y la madre, y es una herramienta fundamental para valorar el bienestar fetal, especialmente en embarazos de alto riesgo.</p>",
     "sections": [
       {
         "title": "¿En qué consiste?",
-        "description": [
-          "Analizamos la resistencia y velocidad del flujo sanguíneo en vasos maternos y fetales para asegurar una adecuada oxigenación del bebé.",
-          "Permite detectar oportunamente alteraciones placentarias y riesgos de restricción de crecimiento intrauterino."
-        ]
-      },
-      {
-        "title": "¿Cómo lo realizamos?",
-        "description": [
-          "Aplicamos Doppler pulsado y color en arterias uterinas, umbilicales, cerebral media y ductus venoso según la indicación clínica."
-        ]
+        "content": "<ul><li>Evalúa la circulación del bebé y la placenta.</li><li>Ayuda a detectar signos de restricción del crecimiento fetal.</li><li>Es útil en embarazos de alto riesgo (hipertensión, diabetes, etc.).</li><li>Permite tomar decisiones sobre el momento ideal del nacimiento.</li></ul>"
       },
       {
         "title": "¿Qué evalúa este estudio?",
-        "items": [
-          "Perfusión uteroplacentaria y riesgo de preeclampsia.",
-          "Resistencia en arteria umbilical y bienestar placentario.",
-          "Redistribución sanguínea a nivel cerebral fetal.",
-          "Signos de compromiso hemodinámico fetal y necesidad de vigilancia estrecha."
-        ]
+        "layout": "full",
+        "content": "<ul><li>Las arterias uterinas (circulación materna hacia la placenta).</li><li>La arteria umbilical (circulación placentaria hacia el bebé).</li><li>La arteria cerebral media del feto, que da información sobre la oxigenación y adaptación del bebé.</li><li>El ductus venoso, en casos específicos, para valorar el funcionamiento del corazón fetal.</li></ul><p>Este estudio permite identificar alteraciones en la circulación que podrían indicar restricción del crecimiento fetal, insuficiencia placentaria o riesgo de sufrimiento fetal. Gracias a esta información, el equipo médico puede ajustar el seguimiento del embarazo o decidir el momento ideal para el nacimiento, con el objetivo de proteger la salud del bebé.</p><p><strong>El estudio Doppler es no invasivo, indoloro y completamente seguro, tanto para la madre como para el bebé.</strong> En nuestra clínica, lo realizamos con tecnología de última generación y bajo estándares internacionales de calidad.</p>"
       }
     ]
   }
