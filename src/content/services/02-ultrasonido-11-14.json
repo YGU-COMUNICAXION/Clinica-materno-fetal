@@ -1,33 +1,21 @@
 {
   "order": 2,
-  "title": "Ultrasonido 11-14 y Ultrasonido Estructural",
-  "subtitle": "Semanas 11-14",
-  "description": "Identificamos malformaciones mayores y estimamos el riesgo de Síndrome de Down y preeclampsia.",
+  "title": "Ultrasonido 11-14 y Estudio Combinado del Primer Trimestre",
+  "subtitle": "Semanas 11 a 14 de gestación",
+  "description": "Evalúa la anatomía fetal, calcula el riesgo de síndrome de Down y otras aneuploidías y predice el riesgo de preeclampsia.",
   "image": "02.jpg",
   "modal": {
-    "ctaLabel": "Agenda tu estudio",
+    "ctaLabel": "Agendar cita",
+    "generalDescription": "<p>Se realiza entre las semanas 11 y 14 de embarazo y es uno de los estudios más importantes del primer trimestre.</p><p>No solo permite confirmar la edad gestacional y el número de fetos, sino que también evalúa de manera temprana la anatomía fetal y detecta condiciones que pueden indicar mayor riesgo de ciertas alteraciones.</p>",
     "sections": [
       {
         "title": "¿En qué consiste?",
-        "description": [
-          "Realizamos un estudio detallado de la anatomía fetal temprana para detectar alteraciones estructurales evidentes y marcadores de aneuploidías.",
-          "Integramos mediciones maternas y ecográficas para calcular el riesgo combinado de Síndrome de Down, otras trisomías y preeclampsia."
-        ]
-      },
-      {
-        "title": "¿Cómo lo realizamos?",
-        "description": [
-          "Utilizamos ultrasonido abdominal y, cuando se requiere mayor precisión, complementamos con abordaje transvaginal. Aplicamos protocolos avalados por la Fetal Medicine Foundation (FMF)."
-        ]
+        "content": "<ul>\n  <li>Evalúa la anatomía fetal de forma temprana.</li>\n  <li>Permite medir la translucencia nucal y otros marcadores importantes.</li>\n  <li>Calcula el riesgo de síndrome de Down y otras aneuploidías.</li>\n  <li>Ayuda a predecir el riesgo de preeclampsia mediante la medición del Doppler uterino.</li>\n  <li>Determina con precisión la edad gestacional y el crecimiento fetal temprano.</li>\n</ul>"
       },
       {
         "title": "¿Qué evalúa este estudio?",
-        "items": [
-          "Translucencia nucal, hueso nasal, ductus venoso y regurgitación tricuspídea.",
-          "Presencia de malformaciones mayores visibles en primer trimestre.",
-          "Marcadores uterinos y Doppler de arterias uterinas para predecir preeclampsia.",
-          "Correlación con marcadores bioquímicos cuando se cuenta con ellos."
-        ]
+        "layout": "full",
+        "content": "<p>Uno de los marcadores más relevantes es la translucencia nucal, que es la medición de un pequeño acúmulo de líquido en la parte posterior del cuello fetal. El aumento de esta medida puede estar relacionado con malformaciones estructurales o cromosómicas como el síndrome de Down, síndrome de Edwards y síndrome de Patau, entre otros.</p><p>Asimismo, estima el riesgo individual de preeclampsia y de restricción del crecimiento fetal, dos afecciones que pueden impactar de manera importante la salud materna y fetal. Estos riesgos se calculan con un software especializado con sustento científico internacional avalado por la FMF.</p><p>Esta evaluación se complementa con la valoración de la anatomía fetal, la medición de marcadores bioquímicos (cuando están disponibles) y el Doppler de arterias uterinas para brindar un diagnóstico integral del estado del embarazo.</p><p>En caso de encontrar alguna variación, se ofrece consejería con enfoque médico y humano para orientar a los padres a tomar la mejor decisión con información clara y confiable.</p><p>Este estudio se realiza idealmente entre las semanas 11 y 14 en conjunto con el Estudio Combinado del Primer Trimestre. Este análisis PRP-U y el factor individual de cada paciente logran detectar alguna alteración cromosómica con una sensibilidad superior al 90%.</p>"
       }
     ]
   }
