@@ -12,61 +12,74 @@ import { Image } from "astro:assets";
   <HeroBanner backgroundImage={imgBanner} />
 
   <section class="py-16 md:py-20 lg:py-24">
-    <div class="container mx-auto space-y-14 px-4 text-center">
+    <div class="container mx-auto space-y-14 px-4 text-center max-w-5xl">
       <p
         class="text-base font-light uppercase leading-relaxed text-primary-blue-600 md:text-lg lg:text-xl"
       >
         EN LA
-        <span class="font-bold text-primary-blue-600"> CLÍNICA DE MEDICINA MATERNO FETAL, </span>
-        CONTAMOS CON UN EQUIPO DE MÉDICOS ESPECIALISTAS EN LA MEDICINA MATERNO-FETAL Y TECNOLOGÍA DE ÚLTIMA GENERACIÓN PARA OFRECER ESTUDIOS DETALLADOS Y CONFIABLES Y REALIZADOS CON EL MÁS ALTO ESTÁNDAR DE CALIDAD.
+        <span class="font-bold text-primary-blue-600">
+          CLÍNICA DE MEDICINA MATERNO FETAL,
+        </span>
+        CONTAMOS CON UN EQUIPO DE MÉDICOS ESPECIALISTAS EN LA MEDICINA MATERNO-FETAL
+        Y TECNOLOGÍA DE ÚLTIMA GENERACIÓN PARA OFRECER ESTUDIOS DETALLADOS Y CONFIABLES
+        Y REALIZADOS CON EL MÁS ALTO ESTÁNDAR DE CALIDAD.
       </p>
-
-      <div
-        class="grid gap-8 md:grid-cols-2 md:gap-10 lg:gap-12"
-      >
-        <article
-          class="flex h-full flex-col items-center gap-6 rounded-3xl border border-primary-blue-200 bg-white p-8 text-center shadow-[0_20px_45px_-20px_rgba(38,106,234,0.35)]"
-        >
-          <div
-            class="flex size-20 items-center justify-center rounded-full bg-primary-blue-200"
-          >
-            <Image src={visionIcon} alt="Icono de visión" class="size-12" />
-          </div>
-
-          <div class="space-y-4">
-            <h3 class="text-2xl font-bold text-primary-blue-600">Visión</h3>
-            <p class="text-base leading-relaxed text-primary-grey-800">
-              Nuestra clínica se posicionará en la industria de la salud como un
-              <span class="font-semibold text-black"> servicio integral del diagnóstico prenatal </span>
-              altamente competitivo y en total correspondencia con el desarrollo internacional del
-              <span class="font-semibold text-black"> Hospital Ángeles Lomas</span>,
-              lo cual nos encamina a ser la mejor aliada estratégica de clientes médicos y sus pacientes.
-            </p>
-          </div>
-        </article>
-
-        <article
-          class="flex h-full flex-col items-center gap-6 rounded-3xl border border-primary-blue-200 bg-white p-8 text-center shadow-[0_20px_45px_-20px_rgba(38,106,234,0.35)]"
-        >
-          <div
-            class="flex size-20 items-center justify-center rounded-full bg-primary-blue-200"
-          >
-            <Image src={missionIcon} alt="Icono de misión" class="size-12" />
-          </div>
-
-          <div class="space-y-4">
-            <h3 class="text-2xl font-bold text-primary-blue-600">Misión</h3>
-            <p class="text-base leading-relaxed text-primary-grey-800">
-              Brindamos a nuestros pacientes y médicos aliados un acompañamiento humano y cálido mediante un
-              <span class="font-semibold text-black"> servicio integral de diagnóstico y tratamiento prenatal</span>
-              respaldado por una
-              <span class="font-semibold text-black"> alta competencia médica y tecnología de vanguardia</span>,
-              garantizando estudios detallados, confiables y realizados con el más alto estándar de calidad.
-            </p>
-          </div>
-        </article>
-      </div>
     </div>
+  </section>
+
+  <section
+    class="container mx-auto mb-12 grid gap-8 md:grid-cols-2 md:gap-10 lg:gap-12"
+  >
+    <article
+      class="flex h-full flex-col items-center gap-6 rounded-3xl border border-primary-blue-200 bg-white p-8 text-center shadow-[0_20px_45px_-20px_rgba(38,106,234,0.35)]"
+    >
+      <div
+        class="flex size-20 items-center justify-center rounded-full bg-primary-blue-200"
+      >
+        <Image src={visionIcon} alt="Icono de visión" class="size-12" />
+      </div>
+
+      <div class="space-y-4">
+        <h3 class="text-2xl font-bold text-primary-blue-600">Visión</h3>
+        <p class="text-base leading-relaxed text-primary-grey-800">
+          Nuestra clínica se posicionará en la industria de la salud como un
+          <span class="font-semibold text-black">
+            servicio integral del diagnóstico prenatal
+          </span>
+          altamente competitivo y en total correspondencia con el desarrollo internacional
+          del
+          <span class="font-semibold text-black"> Hospital Ángeles Lomas</span>,
+          lo cual nos encamina a ser la mejor aliada estratégica de clientes
+          médicos y sus pacientes.
+        </p>
+      </div>
+    </article>
+
+    <article
+      class="flex h-full flex-col items-center gap-6 rounded-3xl border border-primary-blue-200 bg-white p-8 text-center shadow-[0_20px_45px_-20px_rgba(38,106,234,0.35)]"
+    >
+      <div
+        class="flex size-20 items-center justify-center rounded-full bg-primary-blue-200"
+      >
+        <Image src={missionIcon} alt="Icono de misión" class="size-12" />
+      </div>
+
+      <div class="space-y-4">
+        <h3 class="text-2xl font-bold text-primary-blue-600">Misión</h3>
+        <p class="text-base leading-relaxed text-primary-grey-800">
+          Brindamos a nuestros pacientes y médicos aliados un acompañamiento
+          humano y cálido mediante un
+          <span class="font-semibold text-black">
+            servicio integral de diagnóstico y tratamiento prenatal</span
+          >
+          respaldado por una
+          <span class="font-semibold text-black">
+            alta competencia médica y tecnología de vanguardia</span
+          >, garantizando estudios detallados, confiables y realizados con el
+          más alto estándar de calidad.
+        </p>
+      </div>
+    </article>
   </section>
 
   <section class="bg-primary-blue-200 py-16 md:py-20 lg:py-24">
@@ -74,8 +87,11 @@ import { Image } from "astro:assets";
       <h2 class="text-2xl font-normal text-primary-blue-800 md:text-3xl">
         La mejor decisión se toma con información
       </h2>
-      <p class="mx-auto max-w-2xl text-base font-light leading-relaxed text-primary-grey-800 md:text-lg">
-        Consulta las especialidades y certificaciones de nuestros médicos para que confirmes que estás en las mejores manos.
+      <p
+        class="mx-auto max-w-2xl text-base font-light leading-relaxed text-primary-grey-800 md:text-lg"
+      >
+        Consulta las especialidades y certificaciones de nuestros médicos para
+        que confirmes que estás en las mejores manos.
       </p>
       <div class="flex flex-wrap justify-center gap-4">
         <a
