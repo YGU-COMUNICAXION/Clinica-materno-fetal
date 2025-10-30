@@ -2,6 +2,7 @@
 import iconInstagram from "@assets/svg/icons/Instagram.svg";
 import iconFacebook from "@assets/svg/icons/Facebook.svg";
 import { Image } from "astro:assets";
+import { WHATSAPP_URL } from "@utils/whatsapp";
 ---
 
 <footer class="bg-primary-blue-800 text-primary-blue-200">
@@ -41,7 +42,9 @@ import { Image } from "astro:assets";
        flex flex-col gap-4 md:flex-row md:items-center md:gap-8 lg:text-lg"
     >
       <a
-        href="#Citas"
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
         class="group flex items-center gap-2 uppercase hover:underline"
       >
         <span>Agenda cita</span>
