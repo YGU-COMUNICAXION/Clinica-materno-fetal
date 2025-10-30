@@ -6,5 +6,5 @@ export type Doctor = {
   image: ImageMetadata;
   featured?: boolean;
   specialties?: string[];
-  summary?: string[];
+  achievements?: string[];
 };

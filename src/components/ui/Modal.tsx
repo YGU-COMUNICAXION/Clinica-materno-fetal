@@ -8,6 +8,8 @@ export type ModalProps = {
   description?: string;
   children: ReactNode;
   footer?: ReactNode;
+  hideHeaderBorder?: boolean;
+  titleHidden?: boolean;
 };
 
 export default function Modal({
@@ -17,6 +19,8 @@ export default function Modal({
   description,
   children,
   footer,
+  hideHeaderBorder = false,
+  titleHidden = false,
 }: ModalProps) {
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const previouslyFocusedElement = useRef<Element | null>(null);
@@ -70,18 +74,25 @@ export default function Modal({
       onClick={onOverlayClick}
     >
       <div
-        className="relative w-full max-w-3xl lg:max-w-5xl overflow-hidden rounded-3xl bg-white shadow-2xl"
+        className="relative w-full max-w-3xl overflow-hidden rounded-3xl bg-white shadow-2xl lg:max-w-5xl"
         role="dialog"
         aria-modal="true"
         aria-labelledby={title ? headingId : undefined}
         aria-describedby={description ? descriptionId : undefined}
       >
-        <div className="flex items-start justify-between gap-6 border-b border-slate-100 px-8 py-6">
-          <div className="flex-1">
+        <div
+          className={`flex items-start justify-between gap-6
+            ${hideHeaderBorder ? "" : "border-b border-slate-100"}`}
+        >
+          <div className="flex-1 px-8 py-6">
             {title ? (
               <h2
                 id={headingId}
-                className="text-xl font-semibold text-primary-blue-800"
+                className={
+                  titleHidden
+                    ? "sr-only"
+                    : "text-xl font-semibold text-primary-blue-800"
+                }
               >
                 {title}
               </h2>
@@ -100,7 +111,7 @@ export default function Modal({
             onClick={onClose}
             ref={closeButtonRef}
             className="rounded-full border border-slate-200 p-2 text-primary-blue-600 transition
-            hover:border-slate-300 hover:text-primary-blue-800 hover:cursor-pointer
+            hover:border-slate-300 hover:text-primary-blue-800 hover:cursor-pointer mr-8 mt-6
             focus:outline-none focus-visible:ring
             focus-visible:ring-slate-300 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
             aria-label="Cerrar"
