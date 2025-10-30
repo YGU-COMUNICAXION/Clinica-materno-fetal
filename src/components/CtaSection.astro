@@ -1,4 +1,6 @@
 ---
+import { WHATSAPP_URL } from "@utils/whatsapp";
+
 interface Props {
   message?: string;
   buttonLabel?: string;
@@ -25,7 +27,9 @@ const {
       </p>
 
       <a
-        href="#Agenda"
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
         class="mt-8 inline-flex items-center justify-center rounded-full uppercase
         border border-primary-blue-800 px-8 py-3 text-sm md:text-base lg:text-lg
         font-normal bg-primary-blue-800 text-white

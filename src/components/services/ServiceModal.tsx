@@ -1,4 +1,5 @@
 import type { Service } from "../../types/services";
+import { WHATSAPP_URL } from "@utils/whatsapp";
 import Modal from "../ui/Modal";
 
 type ServiceModalProps = {
@@ -34,7 +35,9 @@ export default function ServiceModal({
       footer={
         <div className="flex flex-col gap-3 text-sm text-primary-grey-800 md:flex-row md:items-center md:justify-end">
           <a
-            href="/contacto"
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-full text-center font-light uppercase
             bg-primary-blue px-6 py-3 text-sm text-white transition
             hover:bg-primary-blue-800 focus:outline-none focus-visible:ring

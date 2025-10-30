@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { WHATSAPP_URL } from "@utils/whatsapp";
 
 import svgLogoWhite from "@assets/img/logo.png";
 import svgLogoColor from "@assets/img/logoDark.png";
@@ -113,7 +114,9 @@ const isDarkVariant = variant === "dark";
         </li>
         <li>
           <a
-            href={"#Citas"}
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             class="px-5 py-2 rounded-full bg-primary-blue-800
             !text-white hover:bg-primary-blue/90 transition-colors duration-300"
           >
