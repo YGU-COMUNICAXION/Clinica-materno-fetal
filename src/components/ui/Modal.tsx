@@ -100,7 +100,8 @@ export default function Modal({
             onClick={onClose}
             ref={closeButtonRef}
             className="rounded-full border border-slate-200 p-2 text-primary-blue-600 transition
-            hover:border-slate-300 hover:text-primary-blue-800 focus:outline-none focus-visible:ring
+            hover:border-slate-300 hover:text-primary-blue-800 hover:cursor-pointer
+            focus:outline-none focus-visible:ring
             focus-visible:ring-slate-300 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
             aria-label="Cerrar"
           >
