@@ -28,9 +28,9 @@ export default function DoctorInfoModal({
       titleHidden
       hideHeaderBorder
     >
-      <div className="flex flex-col gap-8 px-4 py-10">
-        <header className="flex flex-col items-center gap-6 rounded-3xl bg-primary-blue-50 px-6 py-8 md:flex-row md:items-center md:gap-8">
-          <div className="h-28 w-28 overflow-hidden rounded-full border-4 border-primary-blue-100 bg-white p-1 md:h-32 md:w-32 lg:h-36 lg:w-36">
+      <div className="flex flex-col gap-8 px-4 pb-12">
+        <header className="flex flex-col items-center gap-6 rounded-3xl bg-primary-blue-50 md:flex-row md:items-center md:gap-8">
+          <div className="h-28 w-28 overflow-hidden rounded-full bg-white p-1 md:h-32 md:w-32 lg:h-36 lg:w-36">
             <img
               src={image.src}
               alt={name}
@@ -60,8 +60,9 @@ export default function DoctorInfoModal({
           </ul>
         ) : (
           <p className="text-center text-sm leading-relaxed text-primary-grey-700 md:text-base">
-            Estamos preparando la información de este especialista. Pronto podrás
-            conocer más detalles sobre su trayectoria y áreas de experiencia.
+            Estamos preparando la información de este especialista. Pronto
+            podrás conocer más detalles sobre su trayectoria y áreas de
+            experiencia.
           </p>
         )}
       </div>

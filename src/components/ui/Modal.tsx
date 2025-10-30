@@ -81,9 +81,10 @@ export default function Modal({
         aria-describedby={description ? descriptionId : undefined}
       >
         <div
-          className={`flex items-start justify-between gap-6 px-8 py-6 ${hideHeaderBorder ? "" : "border-b border-slate-100"}`}
+          className={`flex items-start justify-between gap-6
+            ${hideHeaderBorder ? "" : "border-b border-slate-100"}`}
         >
-          <div className="flex-1">
+          <div className="flex-1 px-8 py-6">
             {title ? (
               <h2
                 id={headingId}
@@ -110,7 +111,7 @@ export default function Modal({
             onClick={onClose}
             ref={closeButtonRef}
             className="rounded-full border border-slate-200 p-2 text-primary-blue-600 transition
-            hover:border-slate-300 hover:text-primary-blue-800 hover:cursor-pointer
+            hover:border-slate-300 hover:text-primary-blue-800 hover:cursor-pointer mr-8 mt-6
             focus:outline-none focus-visible:ring
             focus-visible:ring-slate-300 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
             aria-label="Cerrar"
