@@ -1,6 +1,6 @@
 import type { Doctor } from "../types/doctors";
 
-import doctorAlfredoImage from "@assets/img/about-us/DrAlfonso.jpg";
+import doctorAlfonsoImage from "@assets/img/about-us/DrAlfonso.jpg";
 import doctorDavidImage from "@assets/img/about-us/DrDavid.jpg";
 import doctorDoraImage from "@assets/img/about-us/DrDora.jpg";
 import doctorEduardoImage from "@assets/img/about-us/DrEduardo.jpg";
@@ -117,27 +117,34 @@ const doctors: Doctor[] = [
     ],
   },
   {
-    id: "alfredo-de-jesus-martinez-garcia",
-    name: "Dr. Alfredo de Jesús Martínez García",
-    image: doctorAlfredoImage,
+    id: "alfonso-de-jesus-martinez-garcia",
+    name: "Dr. Alfonso de Jesús Martínez García",
+    image: doctorAlfonsoImage,
     achievements: [
-      "Médico cirujano con especialidad en Ginecología y Obstetricia",
-      "Subespecialista en Medicina Materno Fetal | Instituto Nacional de Perinatología",
-      "Certificado por el Consejo Mexicano de Ginecología y Obstetricia",
-      "Experiencia en terapia fetal invasiva y procedimientos mínimamente invasivos",
-      "Integrante del staff médico de la Clínica Materno-Fetal Ángeles Lomas",
+      "Especialista en Cardiología Fetal, egresado del Royal Brompton Hospital y St. George's University Hospital, Londres, Reino Unido",
+      "Especialista en Cardiología Pediátrica y Alta Especialidad en Ecocardiografía Pediátrica, egresado del Instituto Nacional de Cardiología, Ignacio Chávez. Ciudad de México",
+      "Certificado por el Consejo Mexicano de Cardiología y el Consejo Mexicano de Ecocardiografía Pediátrica",
+      "Médico adscrito al Instituto Nacional de Cardiología, Ignacio Chávez",
+      "Profesor titular y fundador del Curso de Posgrado de Alta Especialidad en Ecocardiografía Fetal de la Universidad Nacional Autónoma de México (UNAM)",
+      "Profesor adjunto de Fisiología de la Licenciatura de Médico Cirujano, Facultad de Medicina, Universidad Nacional Autónoma de México (UNAM)",
+      "Coordinador del Capítulo de Eco-pediatría, Sociedad Nacional de Ecocardiografía de México 2021-2022 (SONECOM)",
+      "Miembro titular de la Sociedad Mexicana de Cardiología",
+      "Miembro titular de la Sociedad Nacional de Ecocardiografía de México",
+      "Miembro certificado por el Consejo Mexicano de Cardiología y el Consejo Mexicano de Ecocardiografía Pediátrica",
     ],
   },
   {
-    id: "dora-gilda-mijares",
-    name: "Dra. Dora Gilda Mijares",
+    id: "dora-gilda-mayen-molina",
+    name: "Dra. Dora Gilda Mayén Molina",
     image: doctorDoraImage,
     achievements: [
-      "Especialista en Ginecología y Obstetricia | Instituto Nacional de Perinatología",
-      "Alta especialidad en Medicina Materno Fetal",
-      "Certificada por el Consejo Mexicano de Ginecología y Obstetricia",
-      "Coautora de publicaciones científicas sobre medicina perinatal",
-      "Parte del comité de calidad y seguridad del paciente en la Clínica Materno-Fetal",
+      "Médico especialista en Genética, Maestra en Ciencias Médicas, UNAM",
+      "Doctora en Ciencias de la Salud, Especialista en Bioética, Universidad Anáhuac",
+      "Jefe de la Unidad de Genética, Hospital Ángeles Lomas",
+      "Capítulo de Genética, Colegio Mexicano de Ginecología y Obstetricia",
+      "Departamento de Genética, Instituto Nacional de Perinatología (1989-2009)",
+      "Ex-Presidenta del Consejo Mexicano de Genética (2008-2011)",
+      "Ex-Presidenta de la Asociación Mexicana de Genética Humana (2017-2019)",
     ],
   },
   {
