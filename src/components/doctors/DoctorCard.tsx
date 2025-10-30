@@ -15,11 +15,8 @@ export default function DoctorCard({ doctor, onSelect }: DoctorCardProps) {
     "focus:outline-none focus-visible:ring focus-visible:ring-primary-blue-300 focus-visible:ring-offset-2 focus-visible:ring-offset-white";
 
   const content = (
-    <article className="max-w-40 lg:max-w-52 flex flex-col items-center">
-      <div
-        className="relative flex size-40 lg:size-48 items-center justify-center
-       overflow-hidden rounded-full mb-4"
-      >
+    <article className="flex max-w-40 flex-col items-center lg:max-w-52">
+      <div className="relative mb-4 flex size-40 items-center justify-center overflow-hidden rounded-full lg:size-48">
         <img
           src={image.src}
           alt={name}
@@ -27,7 +24,7 @@ export default function DoctorCard({ doctor, onSelect }: DoctorCardProps) {
           className="h-full w-full rounded-full object-cover"
         />
       </div>
-      <p className="text-center text-base lg:text-lg font-normal text-primary-grey">
+      <p className="text-center text-base font-normal text-primary-grey lg:text-lg">
         {name}
       </p>
     </article>
