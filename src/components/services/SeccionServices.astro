@@ -8,9 +8,20 @@ import ServicesGrid from "@components/services/ServicesGrid.tsx";
 type Props = {
   title: string;
   description?: string;
+  titleClassName?: string;
+  descriptionClassName?: string;
+  showHeader?: boolean;
 };
 
-const { title, description } = Astro.props;
+const {
+  title,
+  description,
+  titleClassName =
+    "text-3xl font-bold text-primary-blue-800 md:text-4xl",
+  descriptionClassName =
+    "text-base md:text-lg lg:text-xl font-light text-primary-grey-800",
+  showHeader = true,
+} = Astro.props satisfies Props;
 
 const imageModules = import.meta.glob<{ default: ImageMetadata }>(
   "../../assets/img/servicios/*.jpg",
@@ -39,18 +50,14 @@ const services: Service[] = (await getCollection("services"))
 
 <section class="py-16 lg:py-24 container mx-auto">
   <div class="space-y-12 lg:space-y-16 mx-auto max-w-7xl">
-    <div
-      class="mx-auto flex max-w-4xl lg:max-w-5xl flex-col items-center gap-4 text-center"
-    >
-      <h2 class="text-3xl font-bold text-primary-blue-800 md:text-4xl">
-        {title}
-      </h2>
-      <p
-        class="text-base md:text-lg lg:text-xl font-light text-primary-grey-800"
+    {showHeader && (
+      <div
+        class="mx-auto flex max-w-4xl lg:max-w-5xl flex-col items-center gap-4 text-center"
       >
-        {description}
-      </p>
-    </div>
+        <h2 class={titleClassName}>{title}</h2>
+        {description && <p class={descriptionClassName}>{description}</p>}
+      </div>
+    )}
     <ServicesGrid services={services} client:load />
   </div>
 </section>
