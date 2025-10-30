@@ -148,28 +148,16 @@ const doctors: Doctor[] = [
     ],
   },
   {
-    id: "mayte-molina",
-    name: "Dra. Mayte Molina",
+    id: "dr.eduardo-torres",
+    name: "Dr. Eduardo Tores",
     image: doctorMayteImage,
-    achievements: [
-      "Ginecóloga obstetra formada en instituciones de alta especialidad",
-      "Subespecialista en Medicina Materno Fetal con enfoque en monitoreo fetal avanzado",
-      "Certificada por el Consejo Mexicano de Ginecología y Obstetricia",
-      "Docente en programas de educación continua para médicos residentes",
-      "Miembro del equipo de la Clínica de Medicina Materno-Fetal del Hospital Ángeles Lomas",
-    ],
+    achievements: [],
   },
   {
-    id: "david-bojorquez",
-    name: "Dr. David Bojórquez",
+    id: "david-basurto",
+    name: "Dr. David Basurto",
     image: doctorDavidImage,
-    achievements: [
-      "Médico cirujano con especialidad en Ginecología y Obstetricia",
-      "Subespecialista en Medicina Materno Fetal y ultrasonido obstétrico",
-      "Certificado por el Consejo Mexicano de Ginecología y Obstetricia",
-      "Amplia experiencia en vigilancia prenatal y manejo de complicaciones obstétricas",
-      "Colaborador activo en proyectos de investigación clínica en medicina materno fetal",
-    ],
+    achievements: [],
   },
 ];
 
