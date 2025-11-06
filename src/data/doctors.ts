@@ -47,7 +47,7 @@ const doctors: Doctor[] = [
   },
   {
     id: "santiago-castelan-alatorre",
-    name: "Dr. Santiago Castelan Alatorre",
+    name: "Dr. Santiago Castelazo Alatorre",
     image: doctorSantiagoImage,
     achievements: [
       "Médico Cirujano por la Universidad Anáhuac México-Norte",
@@ -59,8 +59,8 @@ const doctors: Doctor[] = [
     ],
   },
   {
-    id: "jana-lopez-feliks",
-    name: "Dra. Jana López Feliks",
+    id: "jana-lopez-felix",
+    name: "Dra. Jana López Félix",
     image: doctorJanaImage,
     achievements: [
       "Especialista en Ginecología y Obstetricia | Instituto Nacional de Perinatología",
@@ -101,8 +101,8 @@ const doctors: Doctor[] = [
     ],
   },
   {
-    id: "monica-aguinaga-rojo",
-    name: "Dra. Mónica Aguinaga Rojo",
+    id: "monica-aguinaga-rios",
+    name: "Dra. Mónica Aguinaga Ríos",
     image: doctorMonicaImage,
     achievements: [
       "Licenciatura en Médico Cirujano, Universidad Anáhuac",
@@ -149,13 +149,13 @@ const doctors: Doctor[] = [
   },
   {
     id: "dr.eduardo-torres",
-    name: "Dr. Eduardo Tores",
+    name: "Dr. Eduardo Torres Olivas",
     image: doctorMayteImage,
     achievements: [],
   },
   {
     id: "david-basurto",
-    name: "Dr. David Basurto",
+    name: "Dr. David Basurto Díaz",
     image: doctorDavidImage,
     achievements: [],
   },
